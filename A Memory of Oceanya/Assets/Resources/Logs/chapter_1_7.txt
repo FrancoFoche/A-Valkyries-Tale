@@ -1,0 +1,70 @@
+SetEmote(BlackScene, Narrator)
+KissShot*: {abp 3} @SetEmote(001); PlayMusic(waterfall)@ {abp 3} @SetBackground(Witness, SpaceCourt); SetEmote(BlackScreen); SetBlip(KissShot)@ "The plan was simple enough."
+SetEmote(Empty)
+SetBlip(Senko)
+???: "Make the people believe that she was a God."
+KissShot*: "And while for most that would be a difficult task..."
+???: "Her powers were grand, to say the least."
+KissShot*: "I made rain for farmers around by gathering clouds in the sky..."
+???: "Cracked the earth open to discover water sources and natural caves..."
+KissShot*: "Quite an excessive power show."
+???: "But an effective one."
+KissShot*: "The legend of the Golden Goddess began to spread soon after."
+???: "They would soon begin to construct temples and pray in her honor."
+KissShot*: "It was quite amusing,"
+???: "Surprisingly, no interaction needed to be had for her story to be born."
+KissShot*: "It seems people quickly believe whatever they want as long as it makes the sense within their own world views."
+???: "And, within a few years... her new legend became the norm."
+KissShot*: "The Golden Goddess had become the local most told tale."
+???: "And then, she noticed she didn't have any appetite anymore."
+KissShot*: "It entirely stopped, with no other side effects."
+???: "As a vampire, she should have an urge to eat long ago."
+KissShot*: "Yet i didn't."
+???: "The Oddity Killer and Shiro quickly picked up on that."
+KissShot*: "Akira and Shiro measured every change in my body, personality and power along the way."
+???: "Maybe a little too much, looking back on it."
+KissShot*: "But, they adviced not to think about it too much."
+???: "One day, Shiro and Akira received notice that a God named Loki had destroyed a small town somewhere in the yggdrasil."
+KissShot*: "Worried Balance might have been broken by this God, they left to investigate."
+???: "They trusted KissShot by this point, and so, they left her in charge of the town."
+KissShot*: "In that time i spent alone, i met some rather interesting folk."
+???: "Blue and Red half-oddity swordmasters began trying to challenge her due to her legend."
+KissShot*: "Though this time, i felt no murderous intent from them."
+???: "So she let them fight her."
+KissShot*: "Not like they were a threat, they fought more between themselves than they fought me."
+???: "And even when they didn't, her powers were more than enough to defeat both of them tenfold."
+KissShot*: "This would go on to become a daily routine for me as i waited."
+???: "It would be her way to pass the time."
+KissShot*: "However, something weird was beginning to happen around that time."
+???: "People around town began disappearing, without leaving any trace."
+KissShot*: "At the time i didn't pay it any attention"
+???: "In hindsight, she should have."
+KissShot*: "Not like i was the kind to care about that type of problem myself."
+???: "After some time, the Oddity Killer and Shiro came back from their trip."
+KissShot*: "And to my surprise, they weren't alone."
+???: "A little kid had come with them."
+KissShot*: "But, that kid didn't seem..."
+
+SetBackground(defense, gs4night)
+SetEmote(sickomode, Shiro)
+SetBlip(Shiro)
+Shiro: "GYET THYE HYELL OFF OF MYE ALRYEADY, KYD!"
+
+???: "...like he was planned to come with."
+SetEmote(3, KissShot)
+SetBackground(witness, gs4night)
+KissShot: {abp 3} "so... what's with the kid?"
+
+
+SetEmote(armscrossed, Akira)
+SetBackground(prosecutor, gs4night)
+SetBlip(Akira)
+Akira: "The true nature of an Oddity is one not yet fully figured out."
+Akira: "Not even by Oddities themselves."
+SetEmote(normal, Shiro)
+SetBlip(Shiro)
+Shiro: "Nyot lyke any oddity wyould hyave enyough ynteryest tyo fygyure yt out, anyieway."
+Akira: "Indeed."
+SetEmote(3, KissShot)
+SetBackground(witness, gs4night)
+KissShot: "...and?"

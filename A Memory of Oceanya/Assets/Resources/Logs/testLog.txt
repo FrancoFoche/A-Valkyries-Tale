@@ -1,0 +1,210 @@
+SetBackground(Witness, SpaceCourt)
+SetEmote(12, GaenIzuko)
+1: "a"
+
+SetBackground(witness, Anime)
+SetEmote(12, GaenIzuko)
+1*: "b"
+
+SetBackground(defense, SpaceCourt)
+SetEmote(BlackScreen, Narrator)
+1**: "c"
+
+1: "a2"
+1*: "b2"
+1**: "c2"
+
+SetEmote(NervousNotes, Loremaster)
+1: "New emote"
+
+SetEmote(1, GaenIzuko)
+1*: "New emote 2"
+
+SetEmote(BlackScene, Narrator)
+1**: "New emote 3"
+
+1: "a2"
+1*: "b2"
+1**: "c3"
+
+SetBackground(judge, Anime) 0
+SetEmote(6, GaenIzuko) 1
+Gaen Izuko: "test1" 2
+choice: "Default" 3 2
+{
+  "A"
+  "Chose A"
+  choice: "A"
+  {
+    "A1"
+    "Chose A1"
+    break;
+    "A2"
+    "Chose A2"
+    break;
+  }
+  "|A HAS FINISHED|"
+  break;
+  "B"
+  "Chose B"
+  choice: "B"
+  {
+    "B1"
+    "Chose B1"
+    break;
+    "B2"
+    "Chose B2"
+    break;
+  }
+  break;
+}
+
+"|CHOICE HAS FINISHED|"
+"1waa, @ping@"
+
+"Hey, tell me, would you be comfortable giving me your name?"
+
+choice: "Would you be comfortable giving her your name?"
+{
+  "Yea sure"
+    "Oh, sorry, i should have been clear. I meant your |real| name."
+    choice: "Are you sure you'd be comfortable giving her your name?"
+    {
+      "Yes."
+        "Then please, go ahead." @WaitForInput(name, What is your name?, true)@
+        "@name@."
+        "What a nice name."
+        break;
+
+      "Not anymore."
+        "Whatever you say, @realName@."
+        break;
+
+      "This is kind of intimidating-"
+        "Don't worry so much about it!"
+        "I am sure i can not do anything with this information anyway."
+        "[Probably.]"
+        choice: "Are you SURE you're comfortable giving her your name."
+        {
+          "Yes?"
+            break;
+          "No?"
+            break;
+          "I'd like to phone a friend-"
+            "Just pick a thing, @realName@!"
+            choice: "Dew it"
+            {
+              "Yes i will give you my name"
+                "Jeez, took you long enough."
+                "Alright, go ahead." @WaitForInput(name, What is your name?, true)@
+                "@name@."
+                "What a nice name."
+                break;
+
+              "Never."
+                "Fiine. I'll just pretend i don't know you then, @realName@."
+                break;
+            }
+            break;
+        }
+        break;
+    }
+    break;
+
+  "No thanks."
+    "Come on!"
+    choice: "Please?"
+    {
+      "I said no."
+        "I'll give you a cookie if you do."
+        choice: "Do it for the cookie"
+        {
+          "Oh shit- Alright"
+          "Damn, you were supposed to continue the bit."
+          "Now i don't really care."
+          "Let's move on then, shall we, @realName@?"
+          break;
+
+          "I despise cookies"
+            "I have never in my life met someone as thoroughly evil as you"
+            "For a thousand years, a prophecy has been foretold"
+            "A prophecy that one as evil as you was one day going to show up"
+            "And deny a cookie"
+            choice: ""
+            {
+                "What is happening"
+                  "My father had warned me, yet i did not listen"
+                  "and as i recall, he had but one advice for me"
+                  "no matter what, i should-"
+                  break;
+
+                "Wasn't this about my name?"
+                  "ye but i already know it so i moved on."
+                  "Oh well, onwards with the story, @realName@!"
+                  break;
+            }
+            break;
+        }
+        break;
+
+      "Alright fine."
+        break;
+    }
+    break;
+}
+
+"Test end."
+
+Load(testLog2.txt)
+
+"Ne, Ne, could you tell me your name?" @WaitForInput(name, What is your name?)@  {w 5} "?" {w 5} @SetEmote(5)@ "You still there?" {w 5} @SetEmote(3)@ "Hellooo?"
+
+"Your result was @name@, now, i will ask something @WaitForInput(name2, What is your real name?)@ else"
+
+"Your result was @name@, @name2@"
+
+choice: "This is a test choice, choose."
+{
+  "Scorp"
+    "a"
+    "b"
+    "c"
+    break;
+
+  "Dredd"
+    "d"
+    "e"
+    break;
+}
+
+"I {wa 2} D{wa 0.2}-E{wa 0.2}-S{wa 0.2}-P{wa 0.2}-I{wa 0.2}-S{wa 0.2}-E{wa 0.2} Y{wa 0.2}-O{wa 0.2}-U"
+"I {wa 2} |D|{wa 0.2}-(E){wa 0.2}-[S]{wa 0.2}-~P~{wa 0.2}-I{wa 0.2}-S{wa 0.2}-E{wa 0.2} Y{wa 0.2}-O{wa 0.2}-U"
+
+SetBackground(defense)
+SetEmote(7)
+"How {wa 3} much longer will i have to endure?"
+
+SetBackground(witness)
+SetEmote(11)
+"You still are."
+
+SetEmote(13)
+"But what am i to do anyway? (Just a simple puppet who is trying to cut her own strings.)"
+
+"So instead i will just... {wa 1} |test.|"
+
+SetBackground(WindowsBackground)
+SetEmote(11)
+"~Test like my god damn life |depends| on it.~"
+
+SetEmote(10)
+"And with that."
+
+SetEmote(14)
+"Our test is over."
+
+SetEmote(16)
+"|The End|."
+
+SetEmote(BlackScene, Narrator)
+"|Black Scene|."

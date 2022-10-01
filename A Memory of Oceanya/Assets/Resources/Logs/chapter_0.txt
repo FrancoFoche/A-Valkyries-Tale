@@ -1,0 +1,283 @@
+SetBackground(witness, Anime)
+SetEmote(BlackScreen, Narrator)
+PlayMusic(UndertaleWind)
+SetBlip(male)
+???: {abp 3} "..."
+"So... {wa 1} you're back here again."
+"What changed this time? {wa 1} Couple of events? {wa 1} Maybe an item or two? {wa 1} Some stats?"
+"Well..."
+"Not like it matters."
+"..." {w 2}"Why i dont try to stop this?"
+"I've considered it."
+"Once or twice."
+"Always ends the same."
+"Responsibility like that... {wa 1} Heh, well... {wa 1} i'm no good at it."
+"We always end up... {wa 0.5} here."
+"But thats to be expected."
+"|We are brothers, after all.|"
+RestoreBlip()
+
+Gaen Izuko: {abp 2} @SetEmote(BlackScene)@ {abp 3} @SetEmote(001)@ {abp 3} @SetBackground(Witness, Anime); SetEmote(3, GaenIzuko)@ "Sorry about that."
+
+SetEmote(12)
+"You probably don't even remember what that is, haha!"
+
+SetEmote(8)
+"Oh well."
+
+PlayMusic(OutsideFunk2)
+SetEmote(5)
+"So, you're here again."
+"Or, well, maybe it's not exactly the same you as last time."
+"Who knows, really."
+"Oh, wait."
+
+SetEmote(10)
+"I do."
+
+SetEmote(9)
+"But let's not think about that right now."
+
+SetEmote(13)
+"So, let's see..."
+"This place has changed quite a bit, hasn't it?"
+"Kam always overdoes it."
+
+SetEmote(12)
+"And forgets about hosting while doing so."
+
+SetEmote(PostMocking, Loremaster)
+Kam: "Oi."
+
+Gaen Izuko: "Oh, there you are."
+
+SetEmote(Backed_Annoyed, Loremaster)
+Kam: "Yo."
+
+Gaen Izuko: "Yo!"
+
+SetEmote(Backed, Loremaster)
+Kam: "So, i guess i should explain. Since you never explain anything."
+
+SetEmote(9, GaenIzuko)
+Gaen Izuko: "Because you would never let me"
+
+SetEmote(NervousNotes, Loremaster)
+Kam: "(Technically correct i suppose.)"
+
+SetEmote(Shrug)
+"But anyway."
+
+SetEmote(CheckNotes)
+"This is a memory. A tale of the past within my world that doesn't quite fit in in my normal TableTop RPG session format."
+
+SetEmote(7, GaenIzuko)
+Gaen Izuko: "(Normal...)"
+
+SetEmote(CheckNotes, Loremaster)
+Kam: {abp 2} "...whatever. Point is."
+"This is a tale."
+"There is no saving system set in place, so, beware of that i suppose."
+"Or well actually technically there is one but its got some things to fix and i'd need a main menu and a lot of work so i kinda preferred not to use it yet."
+
+SetEmote(13, GaenIzuko)
+Gaen Izuko: "Nerd."
+
+SetEmote(PostMocking, Loremaster)
+Kam: "Shush."
+
+SetEmote(CheckNotes)
+"But anyway. If you put your mouse around the top of the screen you should see a thing pop up, that's the volume menu, in case this is too loud."
+
+"Too lazy to manage actual volume of sound files, so."
+"Oh, also you can speed up scroll speed for the current dialogue if you click while it is scrolling"
+"And, you see that little triangle thing that's bottom right? That's the waiting for input symbol, so you know that you actually have to click or whatever."
+"The input it detects right now is left click, spacebar, and enter. So you can use any of those to keep going."
+
+SetEmote(5, GaenIzuko)
+Gaen Izuko: "I feel like if they got this far, they should know most of what you said by now."
+"Probably should have done this tutorial at the very start."
+
+SetEmote(13)
+"But you wanted your little mysterious part."
+
+SetEmote(PostMocking, Loremaster)
+Kam: "Shut it, self insert."
+
+SetEmote(12, GaenIzuko)
+Gaen Izuko: *Gaen giggles* "I forgot he called me that."
+
+SetEmote(9)
+"We're getting off track."
+
+SetEmote(10)
+"So." *Gaen turns towards you*
+
+"Hey, tell me, would you be comfortable giving me your name?"
+
+choice: "Would you be comfortable giving her your name?"
+{
+  "Yea sure"
+    SetEmote(5)
+    "Oh, sorry, i should have been clear."
+    SetEmote(6)
+    "I meant your |real| name."
+    choice: "Are you sure you'd be comfortable giving her your name?"
+    {
+      "Yes."
+        SetEmote(7)
+        WaitForInput(name, What is your name?, true)
+        "Then please, go ahead."
+        "@name@."
+        "What a nice name."
+        SetEmote(6)
+        "|I'll make sure to remember it, @realName@|"
+        break;
+
+      "Not anymore."
+        SetEmote(9)
+        "Whatever you say, @realName@."
+        break;
+
+      "This is kind of intimidating-"
+        SetEmote(12)
+        "Don't worry so much about it!"
+        SetEmote(5)
+        "I am sure i can not do anything with this information anyway."
+        "[Probably.]"
+        choice: "Are you SURE you're comfortable giving her your name."
+        {
+          "Yes?"
+            SetEmote(7)
+            "Then please, go ahead." @WaitForInput(name, What is your name?, true)@
+            "@name@."
+            "What a nice name."
+            SetEmote(6)
+            "|I'll make sure to remember it, @realName@|"
+            break;
+
+          "I'd like to phone a friend-"
+            SetEmote(8)
+            "Just pick a thing, @realName@!"
+            choice: "Dew it"
+            {
+              "Yes i will give you my name"
+                SetEmote(12)
+                "Jeez, took you long enough."
+                SetEmote(7)
+                "Alright, go ahead." @WaitForInput(name, What is your name?, true)@
+                "@name@."
+                "What a nice name."
+                SetEmote(6)
+                "|I'll make sure to remember it.|"
+                break;
+
+              "Wait what-"
+                SetEmote(12)
+                "Nothing. Anyways!"
+                break;
+            }
+            break;
+        }
+        break;
+    }
+    break;
+
+  "No thanks."
+    SetEmote(5)
+    "Come on!"
+    choice: "Please?"
+    {
+      "I said no."
+        SetEmote(13)
+        "I'll give you a cookie if you do."
+        choice: "Do it for the cookie"
+        {
+          "Oh shit- Alright, for the cookie."
+            "Alrighty!" @WaitForInput(name, What is your name?, true)@
+            SetEmote(Backed_Annoyed, Loremaster)
+            Kam: "Really? That worked? (Also really? @name@?)"
+
+            SetEmote(8, GaenIzuko)
+            Gaen Izuko: "Power of the cookie."
+
+            SetEmote(Backed_Annoyed, Loremaster)
+            Kam: "You can't even give them an actual one."
+
+            SetEmote(8, GaenIzuko)
+            Gaen Izuko: "They knew that when choosing."
+            SetEmote(7)
+            "And they can have a virtual one still." *Gaen gives you a virtual cookie, wooo*
+            "Anyways, let us move on, shall we, @realName@?"
+            break;
+
+          "I despise cookies"
+            SetEmote(Backed_Annoyed, Loremaster)
+            Kam: "Now you've taken it too far, buddy."
+
+            SetEmote(7, GaenIzuko)
+            Gaen Izuko: "Don't egg him on, @realName@."
+
+            "Let's just move on for now."
+            break;
+        }
+        break;
+
+      "Alright fine."
+        "Damn, you were supposed to continue the bit."
+        "Now i don't really care."
+        "Let's move on then, shall we, @realName@?"
+        break;
+    }
+    break;
+}
+
+SetEmote(13, GaenIzuko)
+Gaen Izuko: "As you can see, there is a lot more to this than last time."
+
+SetEmote(NervousNotes, Loremaster)
+Kam: "(And i won't use like half of it, wooo)"
+
+SetEmote(9, GaenIzuko)
+Gaen Izuko: "It really is incredible."
+
+SetEmote(10)
+Gaen Izuko: "You have no idea..."
+
+PauseMusic()
+SetEmote(12)
+SetBackground(WindowsBackground)
+Gaen Izuko: "@txtSpd 15,1@~How much power i have over you~@/txtSpd@"
+
+
+Gaen Izuko: {abp 1} @SetBackground(witness, Anime); SetEmote(13, GaenIzuko); UnPauseMusic()@ "But don't worry, i won't use it for evil!"
+SetEmote(14)
+Gaen Izuko: "[Probably]"
+Gaen Izuko: "But anyways..."
+SetEmote(5)
+Gaen Izuko: "It is about time we start the story, wouldn't you say, Kam?"
+
+SetEmote(CheckNotes, Loremaster)
+Kam: "Sure thing."
+
+SetEmote(5, GaenIzuko)
+Gaen Izuko: *Gaen grabs a nearby book* "Ready."
+
+SetEmote(CheckNotes, Loremaster)
+Kam: "And we'll start in..."
+"10" {w 1} "9" {w 1} "8" {w 1} "7" {w 1} "6" {w 1} "5" {w 1} "4" {w 1} "|3|" {w 1} "|2|" {w 1} "~1~" {w 1} @Next()@
+
+StopMusic()
+SetEmote(14, GaenIzuko)
+Gaen Izuko: "|Enjoy the story.|"
+
+SetEmote(BlackScreen, Narrator)
+SetBlip(GaenIzuko)
+Gaen Izuko: {abp 3} "[You forgot 7]"
+
+SetEmote(BlackScreen, Narrator)
+SetBlip(Loremaster)
+Kam: "[Shut up.]"
+
+RestoreBlip()
+Load(chapter_1_0)

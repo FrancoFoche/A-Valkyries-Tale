@@ -1,0 +1,93 @@
+SetEmote(BlackScene, Narrator)
+???*: {abp 3} @SetEmote(001); PlayMusic(LThemeB)@ {abp 3} @SetBackground(defense, gs4night); SetEmote(Normal, Shiro)@ "..cyool lyanding."
+SetBackground(Witness, SpaceCourt)
+SetEmote(Empty)
+SetBlip(Senko)
+???: "A pink haired lady with two tails made herself be noticed."
+SetEmote(BlackScreen, Narrator)
+SetBlip(KissShot)
+KissShot*: "It was clear she was an oddity."
+SetBackground(Witness, gs4night)
+SetEmote(3, KissShot)
+KissShot: "..."
+KissShot*: "No oddities or non-oddities ever talk to me, due to being afraid, or just wanting to kill me on sight."
+???: "Had they not recognized her?"
+SetEmote(Gamer, Shiro)
+SetBackground(defense, gs4night)
+???*: "Whyat, yiou myute or syomething?"
+KissShot: "Where... is this?"
+???*: "Lyttle nyew tyown yn an yslyand cyalled Oceanya."
+KissShot: "..."
+KissShot: "(I guess i must have been gone for too long.)"
+???: "Locals had just established themselves in this island in the time she was gone."
+KissShot*: "And while i was busy being confused about the time and place i landed in, i heard another voice."
+SetEmote(Empty)
+SetBackground(prosecutor, gs4night)
+SetBlip(Akira)
+???**: "Shiro. Time to head back."
+SetEmote(lollipop, Shiro)
+SetBackground(defense, gs4night)
+SetBlip(Shiro)
+Shiro: "NyeahNyeah. I wyas jyust abyout tyo lyeave anywyay, Akira."
+KissShot*: "And so, i met him."
+???: "The Oddity Killer."
+KissShot*: "Akira Kenji, the only man with the capability to kill an oddity."
+???: "The best Oddity Expert there ever was."
+SetEmote(disapprovement, Akira)
+SetBackground(prosecutor, gs4night)
+SetBlip(Akira)
+Akira: "..."
+KissShot*: "And, that expert just noticed i was standing there."
+KissShot: "..."
+SetEmote(armscrossed, Akira)
+Akira: "Still looking for me, Heart Under Blade?"
+KissShot: "..."
+KissShot*: "And somehow, he knew i was looking for him"
+Shiro: "Wayt, yiou knyow hyer?"
+Akira: "Well, you found me."
+Akira: "What now?"
+KissShot: "..."
+KissShot*: "I was caught off guard."
+???: "The oddity killer spoke casually to her."
+KissShot*: "After so long searching, i felt like i was breaking down."
+???: "Even so, gathering all of her thoughts as fast as she could, she spoke her wish."
+KissShot: "..."
+KissShot: "Please..."
+PauseMusic()
+KissShot: "Kill me."
+SetEmote(normal, Shiro)
+Shiro: "Wyoah."
+KissShot*: "I could have really worded that better. But..."
+???: "There was no other thought in her mind."
+KissShot*: "That was what i came up with on the spot."
+???: "And his response..."
+Akira: "..."
+SetEmote(disapprovement, Akira)
+UnPauseMusic()
+Akira: "I refuse."
+KissShot*: "As clear as day, he refused my wish."
+???: "This came as to quite the surprise, this is the first time she had ever asked someone to kill her."
+KissShot*: "That is something most if not all people and oddities would gladly accept to do."
+???: "And yet, the oddity killer refused."
+KissShot: "..."
+KissShot: "But... why?"
+KissShot*: "I was dumbfounded."
+Akira: "I believe in true balance."
+Akira: "And true balance requires the power of the Queen of Oddities to stay as it is."
+Shiro: "...wyait. |Thys| is thye Quyeen of Oddytyies?"
+Akira: *nods* "KissShot Acerola Orion Heart Under Blade."
+Akira: "Shiro, would you mind waiting for us in the temple?"
+SetEmote(scooter, Shiro)
+Shiro: "Syure." *Shiro leaves the place for the time being, heading towards a distant temple*
+Akira: "Now, Heart Under Blade."
+KissShot: "..."
+KissShot: "I could kill you without you feeling it."
+SetEmote(armscrossed, Akira)
+Akira: "I do not doubt it."
+Akira: "However, you will not."
+SetEmote(coat, Akira)
+Akira: "Instead, you will follow me."
+KissShot: "..."
+???: "And so, reluctantly, she agreed."
+
+Load(chapter_1_5)

@@ -1,0 +1,62 @@
+
+#FORMATTING
+showname: "dialogue"
+"dialogue"
+
+Command(params)       Runs a command                                                                                  (LogHandler/HandleCommand)
+{action params}       Waits for a player/pc action before proceeding                                                  (LogLineHandler/Line/SegmentDialogue)
+@variableName@        Will be replaced by its value in the variable dictionary                                        (LogLineHandler/Line/Segment/Running)
+@event params@        Runs an event that will only happen for a certain part of the text. Tag is closed with @/event@ (DialogueEvents)
+@Command(params)@     Runs a command in the middle of dialogue                                                        (DialogueEvents)
+
+choice: "title"
+{
+  "choiceA"
+    ((code))
+    break;
+  "choiceB"
+    ((code))
+    break;
+}
+
+#MARKUP
+|text| Sets text to orange
+[text] Sets text to gray
+~text~ Sets text to Red
+
+#COMMANDS
+
+SetEmote(string emoteName, string characterName = (lastCharacter))              Sets the character emote
+SetBackground(string position, string courtroom = (lastCourtroom))              Sets the courtroom background
+SetBackground(WindowsBackground)                                                Sets the courtroom background to the player's wallpaper
+PlayMusic(string name, bool loop = true)                                        Plays music
+PauseMusic()                                                                    Pauses current music
+UnPauseMusic()                                                                  Unpauses current music
+StopMusic()                                                                     Stops current music
+ReplayMusic()                                                                   Replays current music
+PlaySFX(string name, float volume = 1, float pitch = 1)                         Plays an SFX
+WaitForInput(string variableName, title = "", bool ClearCurrentInput = true)    Triggers the input screen and waits for confirmation before proceeding
+ForceConfirmInput() Confirms the input screen
+Load(string filename)                                                           Loads a new Log to be read.
+Next()                                                                          Forces the line to proceed through the command Next
+SetBlip(string characterName/blipname)                                          Sets the current blips to the blips of another character
+RestoreBlip()                                                                   Restores the blips back to the default of the current character.
+
+#ACTIONS
+
+{c}             Waits for input to proceed.
+{ca}            Waits for input to proceed. (Additive)
+{w Seconds}     Waits for Seconds to proceed.
+{wa Seconds}    Waits for Seconds to proceed. (Additive)
+{wc Seconds}    Waits for Seconds to proceed. Skippable by input.
+{wca Seconds}   Waits for Seconds to proceed. Skippable by input. (Additive)
+{bp Seconds}    After a click, blankposts for Seconds to proceed.
+{bpa Seconds}   After a click, blankposts for Seconds to proceed. (Additive)
+{abp Seconds}   Automatically blankpost upon reaching the tag. Blankposts for Seconds.
+{abpa Seconds}  Automatically blankpost upon reaching the tag. Blankposts for Seconds. (Additive)
+
+
+#EVENTS
+
+@txtSpd DelayBetweenCharacters,CharactersPerFrame@    Sets text scrollspeed
+@/txtSpd@                                             Closes the text speed event.
