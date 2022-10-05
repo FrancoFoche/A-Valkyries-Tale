@@ -12,13 +12,56 @@ public enum Characters
     GaenIzuko,
     Loremaster
 }
-public enum Songs
-{
-
-}
 public enum SFXs
 {
 
+}
+
+public enum Sounds
+{
+    AttackSlash,
+    Hit,
+    Buff,
+    Debuff,
+    Heal,
+    Death,
+    Explosion,
+    Special
+}
+
+public enum Music
+{
+    MainMenu,
+    Combat,
+    Win,
+    Lose,
+    Credits,
+    GarouTheme,
+    GenosTheme,
+    GoblinSlayer,
+    SasukeTheme,
+    ParanormalLiberationFront,
+    None
+}
+
+public enum Sprites
+{
+    MagnoDrip,
+    Sasque,
+    Vergil,
+    Obama,
+    Kirbo,
+    Saber,
+    HellTakerDemon,
+    Akira
+}
+
+public enum ItemIcon
+{
+    Liquid_green,
+    Liquid_red,
+    Liquid_yellow,
+    Liquid_blue,
 }
 #endregion
 
@@ -39,16 +82,16 @@ public class AssetDatabase : MonoBehaviour
     #endregion
 
     public Courtroom[] courtrooms;
-    public Character[] characters;
+    public VisualNovelCharacter[] characters;
     public SFX[] sfxs;
-    public Music[] music;
+    public Song[] music;
     public Blip[] blips;
 
     public Courtroom GetCourtroom(Courtrooms name)
     {
         return GetCourtroom(name.ToString());
     }
-    public Character GetCharacter(Characters name)
+    public VisualNovelCharacter GetCharacter(Characters name)
     {
         return GetCharacter(name.ToString());
     }
@@ -56,7 +99,7 @@ public class AssetDatabase : MonoBehaviour
     {
         return GetSFX(name.ToString());
     }
-    public AudioClip GetSong(Songs name)
+    public AudioClip GetSong(Music name)
     {
         return GetSong(name.ToString());
     }
@@ -75,11 +118,11 @@ public class AssetDatabase : MonoBehaviour
 
         throw new System.Exception("Id " + name + " not found in courtrooms array.");
     }
-    public Character GetCharacter(string name)
+    public VisualNovelCharacter GetCharacter(string name)
     {
         for (int i = 0; i < characters.Length; i++)
         {
-            Character cr = characters[i];
+            VisualNovelCharacter cr = characters[i];
 
             if (cr.name.ToLower() == name.ToLower())
             {
@@ -107,7 +150,7 @@ public class AssetDatabase : MonoBehaviour
     {
         for (int i = 0; i < music.Length; i++)
         {
-            Music cr = music[i];
+            Song cr = music[i];
 
             if (cr.name.ToLower() == name.ToLower())
             {
@@ -142,7 +185,7 @@ public struct SFX
 }
 
 [System.Serializable]
-public struct Music
+public struct Song
 {
     public string name;
     public AudioClip music;
@@ -217,7 +260,7 @@ public struct Emote
 }
 
 [System.Serializable]
-public struct Character
+public struct VisualNovelCharacter
 {
     public string name;
     public AudioClip blip;

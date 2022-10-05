@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &760709716635241740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 547425477119173853}
+  - component: {fileID: 1323020713439746914}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &547425477119173853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760709716635241740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 832.04614, y: 76.20639, z: 831.2815}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1323020713439746914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760709716635241740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cbf664e2c77341488c6b155eb9f5eb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 090abefc08f71c04fbdcbfba5f1af744, type: 2}
+  mixerMasterGroup: {fileID: 24300002, guid: 090abefc08f71c04fbdcbfba5f1af744, type: 2}
+  sprites:
+  - spriteName: 0
+    sprite: {fileID: 2800000, guid: 8efc7f0fed324ad458f7a8aef14bbd6e, type: 3}
+  - spriteName: 1
+    sprite: {fileID: 2800000, guid: 9e8708d6ff2fd9348a32785daf508bcb, type: 3}
+  - spriteName: 2
+    sprite: {fileID: 2800000, guid: 81f81b21fac8e584296fc8b780913875, type: 3}
+  - spriteName: 3
+    sprite: {fileID: 2800000, guid: 40ed74a8472bea040a19a09af1cdda53, type: 3}
+  - spriteName: 4
+    sprite: {fileID: 2800000, guid: 15edc8023fa1d344d9369f04c7d0ba85, type: 3}
+  - spriteName: 5
+    sprite: {fileID: 2800000, guid: fc8db98e97ddf1b439716abb50a98929, type: 3}
+  - spriteName: 7
+    sprite: {fileID: 2800000, guid: 9dc3d08661864684380871d597ff92c7, type: 3}
+  - spriteName: 6
+    sprite: {fileID: 2800000, guid: 800d61e462709634eb8edc0a5f7c3190, type: 3}
+  sounds:
+  - sound: 0
+    audioClip: {fileID: 8300000, guid: 6766ad8c642bd63469f74726759053fd, type: 3}
+  - sound: 1
+    audioClip: {fileID: 8300000, guid: 59e89c8e05459964292d424b5639495b, type: 3}
+  - sound: 2
+    audioClip: {fileID: 8300000, guid: 2a7a00ef2374ac84aa06c6f6ed14d3ee, type: 3}
+  - sound: 3
+    audioClip: {fileID: 8300000, guid: 766013f9aadea2248beb0b13df7bdad7, type: 3}
+  - sound: 4
+    audioClip: {fileID: 8300000, guid: eaee47d5db9b9da42b83b0eb752f899c, type: 3}
+  - sound: 5
+    audioClip: {fileID: 8300000, guid: 17305538479e301458051a484aa043e2, type: 3}
+  - sound: 6
+    audioClip: {fileID: 8300000, guid: 9e60374ecdc8014489423c3a01570e95, type: 3}
+  - sound: 7
+    audioClip: {fileID: 8300000, guid: f64b868cd5284b141bbc3c22b1fd6e4d, type: 3}
+  music:
+  - music: 0
+    audioClip: {fileID: 8300000, guid: 6e4f8a87053b6ec45a63d6ed00c33cfc, type: 3}
+  - music: 1
+    audioClip: {fileID: 8300000, guid: 3f41b3fcb5013e14b83aabf070118d91, type: 3}
+  - music: 2
+    audioClip: {fileID: 8300000, guid: 99b4f0e27aee3374dafbe6b8be3faca2, type: 3}
+  - music: 3
+    audioClip: {fileID: 8300000, guid: 75e24864167da7e44a8853f4cb65e725, type: 3}
+  - music: 4
+    audioClip: {fileID: 8300000, guid: 5b46e3fb20aea7c4782860e2c8dc19d6, type: 3}
+  - music: 5
+    audioClip: {fileID: 8300000, guid: e6b6e67e1be608f488dc607418fb2704, type: 3}
+  - music: 6
+    audioClip: {fileID: 8300000, guid: 4a7aafc5cee75434e82021f16e0c9481, type: 3}
+  - music: 7
+    audioClip: {fileID: 8300000, guid: a305039f57ac4e24d80b9ec742eb2f48, type: 3}
+  - music: 8
+    audioClip: {fileID: 8300000, guid: 99f80ba0f3b3ca0458e09ea252d32bd2, type: 3}
+  - music: 9
+    audioClip: {fileID: 8300000, guid: f50edee691a78d84a87a545e1ca13647, type: 3}
+  itemIcons:
+  - icon: 0
+    sprite: {fileID: 21300000, guid: e5b08141f55221e468c6cc7dc21f7d2a, type: 3}
+  - icon: 1
+    sprite: {fileID: 21300000, guid: c63032be7af200240a3aaeacc6e5757d, type: 3}
+  - icon: 2
+    sprite: {fileID: 21300000, guid: 3d84418e29ec8144ca3c94e33ec280c3, type: 3}
+  - icon: 3
+    sprite: {fileID: 21300000, guid: ddb5da602661dad4889a2878de2c2a5d, type: 3}

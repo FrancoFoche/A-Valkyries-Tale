@@ -66,7 +66,7 @@ public class Game_Manager : MonoBehaviour
         public string showname;
         public string message;
         public bool additive;
-        public Character character;
+        public VisualNovelCharacter character;
         public Emote emote;
         public Courtroom courtroom;
         public Background bg;
@@ -81,7 +81,7 @@ public class Game_Manager : MonoBehaviour
             additive = false;
             startAction = null;
             endAction = null;
-            character = new Character();
+            character = new VisualNovelCharacter();
             emote = new Emote();
             courtroom = new Courtroom();
             bg = new Background();
@@ -95,7 +95,7 @@ public class Game_Manager : MonoBehaviour
             additive = false;
             startAction = null;
             endAction = null;
-            character = new Character();
+            character = new VisualNovelCharacter();
             emote = new Emote();
             courtroom = new Courtroom();
             bg = new Background();

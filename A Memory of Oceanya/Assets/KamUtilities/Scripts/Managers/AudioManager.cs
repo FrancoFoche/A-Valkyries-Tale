@@ -4,8 +4,23 @@ using UnityEngine;
 using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour 
 {
-	public static AudioManager instance;
+	private static AudioManager i;
+	public static AudioManager instance
+	{
+		get
+		{
+			/*
+			if (i == null)
+			{
+				GameObject temp = Resources.Load("AudioManager") as GameObject;
+				i = Instantiate(temp).GetComponent<AudioManager>();
+				Initialize();
+			}
+			*/
 
+			return i;
+		}
+	}
 	public static MUSIC activeSong = null;
 	public static List<MUSIC> allSongs = new List<MUSIC>();
 
@@ -15,13 +30,12 @@ public class AudioManager : MonoBehaviour
 	public float songTransitionSpeed = 2f;
 	public bool songSmoothTransitions = true;
 
-	void Awake()
+	 void Awake()
 	{
-		if (instance == null)
+		if (i == null)
 		{
-			instance = this;
-			transform.parent = null;
-			DontDestroyOnLoad(this);
+			i = this;
+			Initialize();
 		}
 		else
 		{
@@ -29,6 +43,11 @@ public class AudioManager : MonoBehaviour
 		}
 	}
 
+	static void Initialize()
+	{
+		i.transform.parent = null;
+		DontDestroyOnLoad(i);
+	}
 	public void PlaySFX(AudioClip effect, float volume = 1f, float pitch = 1f, AudioMixerGroup mixerGroup = null)
 	{
 		AudioMixerGroup resultMixerGroup = mixerGroup == null ? sfxMixerGroup : mixerGroup;

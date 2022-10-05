@@ -1,5 +1,3 @@
-IGNORE THIS, JUST A SECONDARY STORY THAT I DIDN'T FINISH
-
 SetBackground(Silence)
 ???: "..."
 PlayMusic(UndertaleWind)

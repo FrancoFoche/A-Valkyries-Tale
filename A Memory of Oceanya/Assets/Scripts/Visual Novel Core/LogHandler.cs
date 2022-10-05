@@ -543,7 +543,7 @@ public class LogHandler
         }
         else
         {
-            Character character = dialogue.character;
+            VisualNovelCharacter character = dialogue.character;
 
             if (characterName != "")
             {
@@ -645,7 +645,7 @@ public class LogHandler
         
         try
         {
-            Character character = AssetDatabase.i.GetCharacter(name);
+            VisualNovelCharacter character = AssetDatabase.i.GetCharacter(name);
             blip = character.blip;
         }
         catch

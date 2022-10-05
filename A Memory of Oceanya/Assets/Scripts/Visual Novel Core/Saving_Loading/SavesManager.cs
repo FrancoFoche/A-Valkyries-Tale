@@ -13,6 +13,16 @@ public static class SavesManager
     public static int loadedFileNumber = 0;
     public static string loadedLogName = "";
 
+    public static void Initialize()
+    {
+        if (!Directory.Exists(SAVE_FOLDER))
+        {
+            Directory.CreateDirectory(SAVE_FOLDER);
+        }
+
+        Load(loadedFileNumber);
+    }
+    
     public static void Save(SaveFile save)
     {
         if (!Directory.Exists(SAVE_FOLDER))
@@ -56,7 +66,21 @@ public class SaveFile
     public List<LogHandler.ProgressCoroutine> coroutinesStored;
     public string currentDialogueOnScreen;
     public Game_Manager.Dialogue dialogue;
+    public List<PlayerCharacter> players;
+    public float volumeSliderValue;
+    public bool actionConfirmation;
+    public bool manualMode;
+    public bool showOrderOfPlay;
+    public bool orderOfPlay_showDead;
+    public bool orderOfPlay_showPast;
+    public int  lastLevelCleared;
+    public int  groupGold;
 
+    public PlayerCharacter FindPlayer(int id)
+    {
+        return players.Find(x => x.ID == id);
+    }
+    
     public SaveFile()
     {
         logName = LogHandler.StartLog;

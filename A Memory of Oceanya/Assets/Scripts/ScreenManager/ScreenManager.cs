@@ -4,13 +4,24 @@ using UnityEngine;
 
 public class ScreenManager : MonoBehaviour
 {
-    public static ScreenManager instance;
-    Stack<IScreen> _screens = new Stack<IScreen>();
-
-    private void Awake()
+    #region Setup
+    private static ScreenManager _instance;
+    public static ScreenManager instance
     {
-        instance = this;
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = (Instantiate(Resources.Load("ScreenManager") as GameObject).GetComponent<ScreenManager>());
+                DontDestroyOnLoad(_instance);
+            }
+
+            return _instance;
+        }
     }
+    #endregion
+    
+    Stack<IScreen> _screens = new Stack<IScreen>();
 
     public void OpenNewScreen(GameObject newScreen)
     {
