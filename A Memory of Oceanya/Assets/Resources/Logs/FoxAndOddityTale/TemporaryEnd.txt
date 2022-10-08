@@ -1,0 +1,15 @@
+SetEmote(BlackScene, Narrator)
+Kam: {abp 3} @SetEmote(001)@ {abp 3} @SetBackground(Witness, Anime); SetEmote(Backed, Loremaster)@ "Sadly, that's the end of the demo."
+Kam: "I wish i could have made it longer, however, the time i had was limited for this midterm."
+Kam: "Also would have made an actual pause menu and main menu, and other things."
+Kam: "I had to concentrate on ironing out bugs, and implementing design patterns and stuff."
+Kam: "Sadly, most features added weren't in the actual story part of the demo, and were mostly in the intro."
+Kam: "However, they are planned to be on the second part."
+Kam: "Even so, i hope it was good enough."
+Kam: "You can close the application now."
+Kam: "Or well, actually, i can do it for you, here."
+
+SetEmote(14, Gaen Izuko)
+Gaen Izuko: "See you next time, @realName@"
+
+Quit()

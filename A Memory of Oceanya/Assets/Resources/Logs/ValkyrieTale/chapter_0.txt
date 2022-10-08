@@ -1,0 +1,97 @@
+SetBackground(Witness, Silence)
+SetEmote(empty, Narrator)
+SetBlip(empty)
+null:{abp 3}@PlayMusic(UndertaleWind)@@SetEmote(BlackScreen, Narrator)@@SetBackground(Witness, Anime)@"..."
+
+*You find yourself in an empty space once more, there is nothing to see, nor feel, nor hear.*
+*Being alone with your thoughts for long enough, you hear a familiar voice.*
+*Though "hearing" might not be the best way to describe it...*
+
+
+"Oh, you're here again."
+"Gosh, it's been a bit hasn't it?"
+"Not like anyone who was here before can tell anyway..."
+"Or well, maybe this time you're someone new."
+"But anyways"
+"Isn't this place a bit too simple?"
+
+null:*Even though they're talking to you, you can't see nor hear them.*
+
+"This won't do, won't do at all."
+"Let me see if i can..."
+"Ahha!"
+¬"A bit more familiar i suppose, but not enough. Hmmmmm..."¬
+
+???:¬"Let's add that..."¬
+¬"And that¬@SetBackground(Witness, Silence);SetEmote(empty, Narrator)@¬..."¬
+¬"And me¬@SetEmote(5, GaenIzuko);SetBlip(empty)@¬, obviously... What's left? Oh, right."¬
+
+RestoreBlip()
+Gaen Izuko:¬"Doesn't feel right without this sound, haha"¬
+
+¬"Alright, i believe that's as close as i can get! Now, for ambiance!"¬
+
+
+null:*Gaen @PlaySFX(FingerSnap, 0.5, 1);SetEmote(BlackScreen, Narrator);SetBackground(Witness, Anime);StopMusic()@ snaps her fingers, and your entire surroundings change.*
+*You begin to be able to @PlayMusic(OutsideFunk2)@ hear something as well.*
+
+SetEmote(5, GaenIzuko)
+SetBackground(Witness, Anime)
+Gaen Izuko:¬"There we go!"¬
+
+SetEmote(irritated, Shiro)
+Kam: "Sucks that we can't get blips."
+SetEmote(annoyed, Shiro)
+"Or well... actually, nevermind. This dialogue where i complain about Twine 2's limitations doesn't apply to this new unity version."
+"I'm not even using these files as my avatar anymore. Let me change."
+
+SetEmote(Explaining_Excited, Loremaster)
+"Alright, much better!"
+SetEmote(CheckNotes)
+"As i was saying..."
+"This new Unity version is much better as far as features, and well, everything else as well."
+"Our sprites are still blurry as hell due to resolution though. Gotta wait for the artists to finish their work for those things."
+"I hope they draw me hot as hell."
+
+SetEmote(6, GaenIzuko)
+Gaen Izuko: ¬"You didn't even tell them to draw me yet"¬
+
+Kam: "Well, why would i? You're not that important to the story."
+
+SetEmote(4, GaenIzuko)
+Gaen Izuko: ¬"How rude! I am very important, i'll have you know."¬
+
+Kam: "We'll be fine without you, i'll just use a black screen when you're on screen."
+
+SetEmote(7, GaenIzuko)
+Gaen Izuko: ¬"Still as half assed as my home, i suppose."¬
+
+SetEmote(Backed_Annoyed, Loremaster)
+Kam: "Whatever."
+
+SetEmote(8, GaenIzuko)
+Gaen Izuko: ¬"Well then, teasing aside, shouldn't we start the story?"¬
+
+SetEmote(Backed, Loremaster)
+Kam: "Yeahyeah, you can start whenever."
+"You can use Enter, space, and click to move to the next dialogue. There are a few points where you're obligated to wait a second or two, for the sake of effect."
+"Oh and by the way, none of the extra features like choices and battles are in this version. This is just a redo of the Twine 2 Version, i'll add all of those extra things later."
+
+Gaen Izuko: ¬"HaiHai."¬
+
+Kam: "..."
+"I hope the artists can make this place look nice... Oh well, too late to regret."
+
+SetEmote(12, GaenIzuko)
+Gaen Izuko: *Gaen giggles* ¬"Indeed, now shoo. I've got a story to tell! Again!"¬
+
+Kam: "Fine."
+
+SetEmote(BlackScreen, Narrator)
+null:*Kam holds his hand up, and @PlaySFX(FingerSnap, 0.5, 1);SetEmote(BlackScreen, Narrator);SetBackground(Witness, Anime);StopMusic()@ snaps his fingers.*
+*The last words you could hear were...*
+
+SetEmote(14, GaenIzuko)
+Gaen Izuko: ¬"¬|Enjoy the story.|¬"¬
+
+Load(chapter_1)

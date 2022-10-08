@@ -1,0 +1,34 @@
+SetEmote(BlackScene, Narrator)
+???: {abp 3} @SetEmote(001); PlayMusic(ShinigamiIkai)@ {abp 3} @SetBackground(Witness, Anime); SetEmote(BlackScreen);SetBlip(male)@ "..."
+"I've always wanted to be like him, you know?"
+"Strong, charismatic... a true talent. The very best any valkyrie could hope for."
+"That's why, when i found out that he died in battle... i got mad. Maybe at myself, maybe at the world itself. I was his childhood friend, after all. Could i really sit around and do nothing?"
+"Answer is... i could have. And yet, i didn't. To this day, i don't know if that was the best or worst mistake of my life."
+"Let's start from the beginning..."
+"This is my story."
+"|A Valkyrie's Story.|"
+
+"When i was a kid... i was always with him. No matter where he'd ask me to go, i'd join him, and face whatever adventure he had planned for us."
+"They weren't exactly... "safe" adventures."
+"But it was all in post of our dream. To become the best valkyries there ever were."
+"Quite a tall dream, for some random kids that didn't have any training in any field."
+"Even so, we moved forward. It was the only thing he knew how to do, anyway."
+"One day, he asked me to join him on his greatest adventure yet..."
+
+SetBackground(Witness, Anime)
+SetEmote(Zoom, VydValkKam, true, true)
+Kam: "Follow me into the hall of gods."
+
+???: "It was crazy, wasn't it? Two kids heading to see the gods... it was a suicide mission."
+"And yet, that didn't stop us."
+"If i asked why, he'd simply say..."
+
+Kam: "For style, dumbass! Come on, Kittan! Let's go!"
+
+???: "..."
+Kittan: "It must have been a work of the gods."
+"I accepted. And that singular "Fine" changed the course of my life."
+"As for the rest..."
+"Well, i'll let you see for yourself."
+
+Load(chapter_2)

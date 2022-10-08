@@ -23,7 +23,7 @@ public class LogLineHandler : MonoBehaviour
             type = Types.Command;
             string line = rawLine;
 
-            if (line.Contains('"'.ToString()) || line.StartsWith("+"))
+            if (line.Contains('"'.ToString()) || line.Contains('*'.ToString()) || line.StartsWith("+"))
             {
                 type = Types.Dialogue;
             }

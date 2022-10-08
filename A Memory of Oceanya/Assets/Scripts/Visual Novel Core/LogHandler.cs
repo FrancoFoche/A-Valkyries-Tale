@@ -11,7 +11,7 @@ public class LogHandler
     string lastShowname = "";
     public MonoBehaviour coroutineHandler;
     public static readonly string StartLog = "chapter_0.txt";
-    public static readonly string LogPath = "Logs/";
+    
     public LogHandler(MonoBehaviour parent)
     {
         coroutineHandler = parent;
@@ -34,7 +34,7 @@ public class LogHandler
         SaveFile save = SavesManager.loadedFile;
 
         //Load data
-        string path = LogPath + save.logName;
+        string path = Game_Manager.i.LogPath + save.logName;
         TextAsset loaded = Resources.Load<TextAsset>(path.Replace(".txt",""));
         data = FileManager.ReadTextAsset(loaded);
 
@@ -70,7 +70,7 @@ public class LogHandler
     {
         SavesManager.loadedLogName = filename;
 
-        data = FileManager.ReadTextAsset(Resources.Load<TextAsset>(LogPath + filename.Replace(".txt","")));
+        data = FileManager.ReadTextAsset(Resources.Load<TextAsset>(Game_Manager.i.LogPath + filename.Replace(".txt","")));
         dialogue.showname = "";
 
         string coroutineName = CheckCoroutineName("chapterProgress");
@@ -511,6 +511,9 @@ public class LogHandler
             case "Next":
                 Next();
                 break;
+            case "SkipLine":
+                SkipLine();
+                break;
             case "SetBlip":
                 Command_SetBlip(parameters);
                 break;
@@ -522,6 +525,9 @@ public class LogHandler
                 break;
             case "Quit":
                 Application.Quit();
+                break;
+            case "SetPlayPreanim":
+                Command_SetPlayPreanim(parameters);
                 break;
             default:
                 throw new System.Exception("Function " + function  + " is not a valid command. (From txt line: "+line+")");
@@ -535,7 +541,9 @@ public class LogHandler
         string[] data = parameters.SplitParameters();
 
         string emoteName = data[0];
-        string characterName = data.Length == 1 ? "" : data[1];
+        string characterName = data.Length > 1 ? data[1] : "";
+        bool preanim = data.Length > 2 ? bool.Parse(data[2]) : false;
+        bool immediate = data.Length > 3 ? bool.Parse(data[3]) : false;
 
         if(emoteName.ToLower() == "empty")
         {
@@ -555,6 +563,9 @@ public class LogHandler
 
             dialogue.emote = emote;
         }
+
+        CharacterAnimator.playPreanim = preanim;
+        CharacterAnimator.UninterruptedPreanim = immediate;
     }
     void Command_SetBackground(string parameters)
     {
@@ -683,5 +694,12 @@ public class LogHandler
     void Command_ReplayMusic()
     {
         AudioManager.activeSong.Play();
+    }
+    void Command_SetPlayPreanim(string parameters)
+    {
+        string[] data = parameters.SplitParameters();
+        bool play = bool.Parse(data[0]);
+
+        CharacterAnimator.playPreanim = play;
     }
 }

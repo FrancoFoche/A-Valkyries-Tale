@@ -20,13 +20,19 @@ public class CharacterAnimator : MonoBehaviour
 
     RawImageAnimator currentAnim;
 
+    public static bool AnimatingPreanim;
+    public static bool UninterruptedPreanim;
+
+    public static bool playPreanim = false;
+
     private void Update()
     {
         currentAnim?.HandleUpdate();
     }
     void Initialize()
     {
-        Action preanimAction = delegate { currentAnim = anim; currentAnim.Start(); };
+        AnimatingPreanim = true;
+        Action preanimAction = delegate { AnimatingPreanim = false; currentAnim = anim; currentAnim.Start(); };
         if (preanim == null)
         {
             preanim = new RawImageAnimator(preanimSprites, image, frameRate, false, preanimAction);
@@ -47,15 +53,19 @@ public class CharacterAnimator : MonoBehaviour
 
         currentAnim = preanim;
 
-        if (preanimSprites == null || preanimSprites.Count == 0)
+        if (preanimSprites == null || preanimSprites.Count == 0 || !playPreanim)
         {
+            AnimatingPreanim = false;
             currentAnim = anim;
         }
+        
+        currentAnim.Start();
     }
     public void LoadEmote(Emote emote)
     {
         preanimSprites = emote.preanimSprites;
         animSprites = emote.animSprites;
+
 
         Initialize();
     }

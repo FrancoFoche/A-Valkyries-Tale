@@ -1,0 +1,106 @@
+SetEmote(BlackScene, Narrator)
+Kittan: {abp 3} @SetEmote(001); PlayMusic(Sanpo)@ {abp 3} @SetBackground(Witness, Anime); SetEmote(Side2, Kittan, true, true);SetBlip(male)@ "...Fine. But we should probably at least tell mom about us leaving for a bit, come up with an excuse or something."
+
+SetEmote(Thinking, VydValkKam)
+Kam: ""|Mom|"?"
+
+Kittan: "Shiro."
+
+Kam: "I know, but why would you call her your mom?"
+
+Kittan: "She's taken care of me since i was a kid, might as well be at this point."
+
+Kam: "I guess. Just go tell her we're gonna go buy something, i'll wait for you at the hall."
+*Kam throws Kittan some winged shoes*
+
+Kittan: "Sure thing."
+*Kam puts on his shoes, and flies off for the time being.*
+
+SetEmote(Fist, Kittan)
+Kittan: "Alrighty then..." *Kittan walks off towards what looks like a temple*
+
+SetBackground(Prosecutor, Temple)
+SetEmote(glove)
+"Moom?" *Kittan walks in, disturbing the peace of... cats laying about?*
+
+SetEmote(SickoMode, Shiro)
+Shiro: "I tyold yiou tyo nyot cyall mye thyat!"
+*A grumpy lady with a strange accent speaks out, amidst a few cats. Much like the cats, this lady has two tails.*
+
+SetEmote(lazy, Kittan)
+Kittan: "Yeahyeah. I'm just here to tell you i'm not gonna be home for most of today."
+
+SetEmote(irritated, Shiro)
+Shiro:"Yiou're gonnya gyo dyo somethyng dyumb with Kyam agayn aryen't yiou."
+
+SetEmote(Damaged, Kittan)
+Kittan: "Wh- How did you know?!"
+
+Shiro: "Y diydn't. Byut yiou jyust confyirmed yt."
+
+Kittan: "..."
+
+Shiro: "Jyust dyon't gyet yiourself kylled, and bye byack by dynner tyme. Plyease."
+
+SetEmote(lazy, Kittan)
+Kittan: "...thank you, "mom"."
+
+SetEmote(SickoMode, Shiro)
+Shiro: "Gyo awyay!" *One of shiro's two tailed cats jumps at kittan*
+
+SetEmote(Damaged, Kittan)
+Kittan: "AGH-" *The cat jumps onto Kittan's face, scratching it and making him fall out of the temple. The door closes after the cat comes back in.*
+
+Shiro: "..."
+SetEmote(irritated)
+"..."
+"(Lyove yiou tyoo, dyumbass. Yiou byetter cyome byack alyve.)"
+
+SetEmote(BlackScreen, Narrator)
+Kittan*:"After talking to Shiro, i left the place, and met up with Kam in the yggdrasil. The hall of gods is in asgard, the most secure of all 9 realms... and yet. Kam lied his way through the guards, saying stuff like-"
+
+SetEmote(confident, VydValkKam)
+SetBackground(Witness, yggdrasil)
+Kam: "The gods have called us. Just two valkyries... gonna... meet the gods... and stuff. Not gonna.... sneak in... at all. Just... gonna meet the gods."
+"Don't question us... please. Because... there's nothing to question... here. Nothing at... all, yup... (how is this working?)"
+
+PlayMusic(ScientificEndeavors)
+Kittan*: "All i could do was silently and shyly follow him around, as his lies kept making our probability of being in trouble higher and higher."
+"Eventually, we found ourselves at the door of The Hall Of Gods. And even then..."
+
+SetEmote(handondesk, VydValkKam)
+SetBackground(Witness, asgard)
+Kam: "[We're going in.]"
+
+SetEmote(Damaged, Kittan)
+SetBackground(Witness, asgard)
+Kittan: "[WHAT-! Kam! The gods are having a meeting right now! We are NOT going in!]"
+
+Kam: "[Listen, Kittan...]"
+SetEmote(confident, VydValkKam)
+"[What do you see, right here?]"
+
+Kittan: "[What the hell are you talking about? Are you REALLY going to do a speech right now?!]"
+
+Kam: "[Because what i see is a wall.]"
+
+Kittan: "[Alright yeah you are going into a speec-]" @SkipLine()@
+
+Kam: "[A wall between us and our goal.]"
+"[Think about it Kittan. Behind this door right here...]"
+"[Are the very gods that decide a Valkyrie's standings.]"
+
+Kittan: "[...]"
+
+Kam: "[Now, Kittan. Would you mind looking at the time?]"
+
+Kittan: "[...what? We don't have any way to chec-]" @SkipLine()@
+
+SetEmote(handondesk, VydValkKam)
+Kam: "[BECAUSE IT'S MOTHERFUCKIN-]"
+*Kam prepares himself to kick the door open*
+SetEmote(Zoom)
+"|FATE TIME!|"
+*Kam yells, and with a loud noise that interrupts every other sound in the area, kicks the door open.*
+
+Load(chapter_3)

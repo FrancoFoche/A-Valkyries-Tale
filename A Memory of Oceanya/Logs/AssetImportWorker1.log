@@ -1,0 +1,1667 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 32622 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Programs\Unity\2020.3.25f1\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Usuario/Desktop/Davinci/A Valkyrie's Tale/A-Valkyries-Tale/A Memory of Oceanya
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58233
+Successfully changed project path to: C:/Users/Usuario/Desktop/Davinci/A Valkyrie's Tale/A-Valkyries-Tale/A Memory of Oceanya
+C:/Users/Usuario/Desktop/Davinci/A Valkyrie's Tale/A-Valkyries-Tale/A Memory of Oceanya
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 51.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path D:/Programs/Unity/2020.3.25f1/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Desktop/Davinci/A Valkyrie's Tale/A-Valkyries-Tale/A Memory of Oceanya/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   
+    VRAM:     8070 MB
+    Driver:   30.0.15.1277
+Initialize mono
+Mono path[0] = 'D:/Programs/Unity/2020.3.25f1/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programs/Unity/2020.3.25f1/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programs/Unity/2020.3.25f1/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programs/Unity/2020.3.25f1/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000824 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (526ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (151ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004529 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Domain Reload Profiling:
+	ReloadAssembly (919ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.34 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2360 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.2 MB.
+System memory in use after: 127.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2794.
+Total: 2.446200 ms (FindLiveObjects: 0.203500 ms CreateObjectMapping: 0.113900 ms MarkObjects: 2.077300 ms  DeleteObjects: 0.051000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_1_delay-0.1s.gif
+  artifactKey: Guid(5deb59a431423a54299fdabc5a772814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_1_delay-0.1s.gif using Guid(5deb59a431423a54299fdabc5a772814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a260a70462ce82ac80e60519191633') in 0.158260 seconds 
+  Import took 0.161432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_2_delay-0.1s.gif
+  artifactKey: Guid(97626d1e248408743848cec70db4ae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_2_delay-0.1s.gif using Guid(97626d1e248408743848cec70db4ae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a996a1d0bb327fd8f2290d515a3f16') in 0.018409 seconds 
+  Import took 0.021872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_3_delay-0.1s.gif
+  artifactKey: Guid(9cd233ca30ccfab4dacbae20120d492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_3_delay-0.1s.gif using Guid(9cd233ca30ccfab4dacbae20120d492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd9b8d99cc27e56e49e2de9935ed7e8') in 0.012908 seconds 
+  Import took 0.015951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_0_delay-2.3s.gif
+  artifactKey: Guid(3f6aeae0971650246800a564a6b0643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_0_delay-2.3s.gif using Guid(3f6aeae0971650246800a564a6b0643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad97cc0edcbb9ae4a23e04a13ff0e68') in 0.011594 seconds 
+  Import took 0.014644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.349064 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_3_delay-0.1s.gif
+  artifactKey: Guid(9cd233ca30ccfab4dacbae20120d492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_3_delay-0.1s.gif using Guid(9cd233ca30ccfab4dacbae20120d492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ca4682f554019271b6faa33f4df52a') in 0.092552 seconds 
+  Import took 0.095629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_1_delay-0.1s.gif
+  artifactKey: Guid(5deb59a431423a54299fdabc5a772814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_1_delay-0.1s.gif using Guid(5deb59a431423a54299fdabc5a772814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd51a751696149991555dd9e8fadd8e') in 0.011856 seconds 
+  Import took 0.014833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_2_delay-0.1s.gif
+  artifactKey: Guid(97626d1e248408743848cec70db4ae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_2_delay-0.1s.gif using Guid(97626d1e248408743848cec70db4ae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f06928a9d6d7cb3a4b87ab8652a430') in 0.012260 seconds 
+  Import took 0.015877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_0_delay-2.3s.gif
+  artifactKey: Guid(3f6aeae0971650246800a564a6b0643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/frame_0_delay-2.3s.gif using Guid(3f6aeae0971650246800a564a6b0643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc0708f9c7d647e7400e24d28a4916f') in 0.012398 seconds 
+  Import took 0.015630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.300624 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1545d9d30191816af9288526690ca05f') in 0.047758 seconds 
+  Import took 0.051381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289988fcecf3b00d1602f8d2b589f7dd') in 0.077370 seconds 
+  Import took 0.080330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d2861f60500f05bd29199894f7bb5') in 0.067365 seconds 
+  Import took 0.070090 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004576 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Domain Reload Profiling:
+	ReloadAssembly (825ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (679ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.1 MB.
+System memory in use after: 109.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2843.
+Total: 2.190800 ms (FindLiveObjects: 0.167600 ms CreateObjectMapping: 0.093400 ms MarkObjects: 1.917600 ms  DeleteObjects: 0.011700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 451.320377 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_0_delay-2s.gif
+  artifactKey: Guid(bd84a98f95c8a7943a563fcd99a6f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_0_delay-2s.gif using Guid(bd84a98f95c8a7943a563fcd99a6f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b90c42d78c0427834013bfa4fd4790') in 0.038284 seconds 
+  Import took 0.041537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_2_delay-0.1s.gif
+  artifactKey: Guid(855b6a57cc2477b479ec61aca0ab04ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_2_delay-0.1s.gif using Guid(855b6a57cc2477b479ec61aca0ab04ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153b3a8418369461c93a1a916d2e182f') in 0.008693 seconds 
+  Import took 0.011596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_3_delay-0.1s.gif
+  artifactKey: Guid(48f6d2df31ea9504b8e00f6016f6832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_3_delay-0.1s.gif using Guid(48f6d2df31ea9504b8e00f6016f6832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4192bfe18b0077eb49443462fb50da') in 0.008578 seconds 
+  Import took 0.011351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_1_delay-0.1s.gif
+  artifactKey: Guid(366ea9224df3a1540ab561cbe94f90ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_1_delay-0.1s.gif using Guid(366ea9224df3a1540ab561cbe94f90ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbc559cc91fcd0ae17a83d31ef1d824') in 0.008401 seconds 
+  Import took 0.011102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.930904 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_3_delay-0.1s.gif
+  artifactKey: Guid(48f6d2df31ea9504b8e00f6016f6832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_3_delay-0.1s.gif using Guid(48f6d2df31ea9504b8e00f6016f6832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628b0f679954cbb6d723209660541af7') in 0.023129 seconds 
+  Import took 0.026372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_2_delay-0.1s.gif
+  artifactKey: Guid(855b6a57cc2477b479ec61aca0ab04ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_2_delay-0.1s.gif using Guid(855b6a57cc2477b479ec61aca0ab04ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5d5ce9018a34fc3a4ffc247ff862b9') in 0.011276 seconds 
+  Import took 0.014208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_0_delay-2s.gif
+  artifactKey: Guid(bd84a98f95c8a7943a563fcd99a6f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_0_delay-2s.gif using Guid(bd84a98f95c8a7943a563fcd99a6f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2434f73b60afae730491c26b4f437927') in 0.011461 seconds 
+  Import took 0.014788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_1_delay-0.1s.gif
+  artifactKey: Guid(366ea9224df3a1540ab561cbe94f90ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/Side2/frame_1_delay-0.1s.gif using Guid(366ea9224df3a1540ab561cbe94f90ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837e2cd4a47319937a47af7a4fcd2351') in 0.010809 seconds 
+  Import took 0.013920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 353.296897 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_00_delay-0.13s.gif
+  artifactKey: Guid(6f9c2317c94ff964faa1e388298f08a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_00_delay-0.13s.gif using Guid(6f9c2317c94ff964faa1e388298f08a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6550aa5e7fcf8249b3b3330c25d4c6a') in 0.011806 seconds 
+  Import took 0.015333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_16_delay-0.1s.gif
+  artifactKey: Guid(8206c468e479c3d48b7fdbfa70da9843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_16_delay-0.1s.gif using Guid(8206c468e479c3d48b7fdbfa70da9843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44e62fb25162ec20025dcbfd539f58d') in 0.015670 seconds 
+  Import took 0.018453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_11_delay-0.13s.gif
+  artifactKey: Guid(07af2a305f2251e46bef03600f524f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_11_delay-0.13s.gif using Guid(07af2a305f2251e46bef03600f524f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29aba06e53d6e30c72987b1231a540b') in 0.010169 seconds 
+  Import took 0.013005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_13_delay-0.13s.gif
+  artifactKey: Guid(80c0ba8f9b7aa2a428746dc1f7e6442b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_13_delay-0.13s.gif using Guid(80c0ba8f9b7aa2a428746dc1f7e6442b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe73699fdcc6046764f57c89d2279cab') in 0.013010 seconds 
+  Import took 0.015938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_05_delay-0.13s.gif
+  artifactKey: Guid(16ecff0cd99d8af46acef2f82de86e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_05_delay-0.13s.gif using Guid(16ecff0cd99d8af46acef2f82de86e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679bd5d3ed71001b1856479461ae5e24') in 0.011925 seconds 
+  Import took 0.015472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_09_delay-0.13s.gif
+  artifactKey: Guid(25d32e6f09f7fdb4099b1b961e430d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_09_delay-0.13s.gif using Guid(25d32e6f09f7fdb4099b1b961e430d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d7f4168828e74b5c452d616f91aaf5') in 0.023773 seconds 
+  Import took 0.027870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_02_delay-0.13s.gif
+  artifactKey: Guid(12183e9a7ad2816428a4d83de99795c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_02_delay-0.13s.gif using Guid(12183e9a7ad2816428a4d83de99795c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4c7b5c1542b1359f63e1e60c69371c') in 0.010575 seconds 
+  Import took 0.013942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_14_delay-0.13s.gif
+  artifactKey: Guid(2a921940f966f904eb75796aa2f52883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_14_delay-0.13s.gif using Guid(2a921940f966f904eb75796aa2f52883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67ef80e49d27df409e1e8ab4e847b35') in 0.008955 seconds 
+  Import took 0.012772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_10_delay-0.13s.gif
+  artifactKey: Guid(e163ec96fc3dc1949b0b03727a739c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_10_delay-0.13s.gif using Guid(e163ec96fc3dc1949b0b03727a739c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a85beadb1a513c7b873186e4585494') in 0.009769 seconds 
+  Import took 0.013950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_08_delay-0.13s.gif
+  artifactKey: Guid(321c3b71b2b14c941bad3fe71d7d99d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_08_delay-0.13s.gif using Guid(321c3b71b2b14c941bad3fe71d7d99d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bff62d71defdd10f63d5e9c205a8a5') in 0.008592 seconds 
+  Import took 0.012073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_01_delay-0.13s.gif
+  artifactKey: Guid(5b676193e0c572b4b88d2cc2c5abcd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_01_delay-0.13s.gif using Guid(5b676193e0c572b4b88d2cc2c5abcd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29744500f9b16588eae0abdc4833da25') in 0.009940 seconds 
+  Import took 0.013699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_06_delay-0.13s.gif
+  artifactKey: Guid(9c8932f75511b244495f09073614f73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_06_delay-0.13s.gif using Guid(9c8932f75511b244495f09073614f73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abeadda83e50ee0541e76017cb15c600') in 0.010011 seconds 
+  Import took 0.013637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_04_delay-0.13s.gif
+  artifactKey: Guid(0d789e977fe761746b1a2bdd937a81fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_04_delay-0.13s.gif using Guid(0d789e977fe761746b1a2bdd937a81fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242bdfac50bf3c5e8506a208891f6da8') in 0.009482 seconds 
+  Import took 0.013072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_03_delay-0.13s.gif
+  artifactKey: Guid(e47e71fb656209e46a920f13fe67c7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_03_delay-0.13s.gif using Guid(e47e71fb656209e46a920f13fe67c7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6313cf404daafa64e779c5eb9cc5d325') in 0.010951 seconds 
+  Import took 0.014887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_12_delay-0.13s.gif
+  artifactKey: Guid(5071dc2a3f31e5042becd19417635d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_12_delay-0.13s.gif using Guid(5071dc2a3f31e5042becd19417635d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45840b6c0718bb57c1ee6f89df2ff179') in 0.010219 seconds 
+  Import took 0.014269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_07_delay-0.13s.gif
+  artifactKey: Guid(d2568ec912314484e8e3475a01d9e21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_07_delay-0.13s.gif using Guid(d2568ec912314484e8e3475a01d9e21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f694439a6bdbd0e4e7af79c10229bfd2') in 0.008622 seconds 
+  Import took 0.011656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_15_delay-0.5s.gif
+  artifactKey: Guid(d4317e0745829794ba912248ba9e2fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_15_delay-0.5s.gif using Guid(d4317e0745829794ba912248ba9e2fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b7bc10aede3a8270303c179e44abd1') in 0.008849 seconds 
+  Import took 0.011898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.324545 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_17_delay-0.13s.gif
+  artifactKey: Guid(0a3addc452710e54d87e2cb078031378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_17_delay-0.13s.gif using Guid(0a3addc452710e54d87e2cb078031378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a3224efc7f6107f04d8a8197bf2984') in 0.009158 seconds 
+  Import took 0.012400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_18_delay-0.13s.gif
+  artifactKey: Guid(0fe9e974a4d501045a613db3da312176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_18_delay-0.13s.gif using Guid(0fe9e974a4d501045a613db3da312176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813cfcecf2b0ff7d201133772bfbdc2b') in 0.009193 seconds 
+  Import took 0.011973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_20_delay-0.13s.gif
+  artifactKey: Guid(dc3d3685f779ec841b95d09977e988fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_20_delay-0.13s.gif using Guid(dc3d3685f779ec841b95d09977e988fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06717a9b6d8a04b59a5e91b79b5e49c9') in 0.008859 seconds 
+  Import took 0.012100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_19_delay-0.13s.gif
+  artifactKey: Guid(3897e60a17440224f98669c23d52bfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_19_delay-0.13s.gif using Guid(3897e60a17440224f98669c23d52bfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04583ee75de7ebc0c437978ba74b2aae') in 0.008936 seconds 
+  Import took 0.012757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077716 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_21_delay-0.13s.gif
+  artifactKey: Guid(c839ae2fa8035e34d92db3558ed6e7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_21_delay-0.13s.gif using Guid(c839ae2fa8035e34d92db3558ed6e7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3554b3f8cf94db9833483da9ceb02dbb') in 0.008918 seconds 
+  Import took 0.011978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_22_delay-0.13s.gif
+  artifactKey: Guid(26d4f79332f60b84b950571b9189123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_22_delay-0.13s.gif using Guid(26d4f79332f60b84b950571b9189123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267ca036834c1827932d4923fa8d256b') in 0.008933 seconds 
+  Import took 0.011861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_24_delay-0.13s.gif
+  artifactKey: Guid(03422bf5a34472e47beae2cb080d531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_24_delay-0.13s.gif using Guid(03422bf5a34472e47beae2cb080d531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e42b7ba34e626b7c8f5d13d2a33620') in 0.009125 seconds 
+  Import took 0.012345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_23_delay-0.13s.gif
+  artifactKey: Guid(b3203445c366e9a4a844767f2f01c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_23_delay-0.13s.gif using Guid(b3203445c366e9a4a844767f2f01c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8045a3e3c7d6a3c2d4170b7cd8700e6f') in 0.011007 seconds 
+  Import took 0.014486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_25_delay-0.13s.gif
+  artifactKey: Guid(0e01180aac24f9b43bb6b5094bb2c3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_25_delay-0.13s.gif using Guid(0e01180aac24f9b43bb6b5094bb2c3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c779dbefa48821c3de3e391901c385bf') in 0.010619 seconds 
+  Import took 0.014117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_28_delay-0.13s.gif
+  artifactKey: Guid(eab188191cca51249b64391c621e28fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_28_delay-0.13s.gif using Guid(eab188191cca51249b64391c621e28fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89654dac11672160067da6947c7c1224') in 0.009639 seconds 
+  Import took 0.013281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_27_delay-0.13s.gif
+  artifactKey: Guid(d72baa473fe3d564e87390b592a845c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_27_delay-0.13s.gif using Guid(d72baa473fe3d564e87390b592a845c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd6e478136d62eb4647f8f7ab013f6b') in 0.008708 seconds 
+  Import took 0.012118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_29_delay-0.13s.gif
+  artifactKey: Guid(983fa32d63739244dbc17a5487c2ebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_29_delay-0.13s.gif using Guid(983fa32d63739244dbc17a5487c2ebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efadca8ab68ea13e0111d4dfe6212f0f') in 0.009660 seconds 
+  Import took 0.013001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_35_delay-0.13s.gif
+  artifactKey: Guid(7203b23fb5b8ddf4c9310d95d836f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_35_delay-0.13s.gif using Guid(7203b23fb5b8ddf4c9310d95d836f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abe6fe90775bcb0648ca6330a2afecc') in 0.009583 seconds 
+  Import took 0.012562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_34_delay-0.13s.gif
+  artifactKey: Guid(2b625787b321da64db93796cffc7c81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_34_delay-0.13s.gif using Guid(2b625787b321da64db93796cffc7c81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4bf6b44ebcbc4e514db803fbea78ae') in 0.009576 seconds 
+  Import took 0.013240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_38_delay-0.13s.gif
+  artifactKey: Guid(992cc5928d0f90a409e9d845e05ba1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_38_delay-0.13s.gif using Guid(992cc5928d0f90a409e9d845e05ba1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002578af9e2a4b08f7dbfed7e6919619') in 0.008972 seconds 
+  Import took 0.012058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_39_delay-1.66s.gif
+  artifactKey: Guid(273d9cf64e7732e40a448c88c11e6d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_39_delay-1.66s.gif using Guid(273d9cf64e7732e40a448c88c11e6d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998b92ffc2026d3e12c2ecd7d2ba0bda') in 0.009340 seconds 
+  Import took 0.012548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_30_delay-0.13s.gif
+  artifactKey: Guid(4a0dac101485d23448bd6d9087b6d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_30_delay-0.13s.gif using Guid(4a0dac101485d23448bd6d9087b6d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1dd775e65c78eda69642e5d6a5b7ad5') in 0.009163 seconds 
+  Import took 0.012760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_32_delay-0.13s.gif
+  artifactKey: Guid(e37fc432423a21547bed036e691d10b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_32_delay-0.13s.gif using Guid(e37fc432423a21547bed036e691d10b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd366300d4073950bf66752765b495e1e') in 0.010056 seconds 
+  Import took 0.013903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_36_delay-0.13s.gif
+  artifactKey: Guid(585bb2c44a25d404ea7f4d44ff578521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_36_delay-0.13s.gif using Guid(585bb2c44a25d404ea7f4d44ff578521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582ade7d32080e04817605d1a2881263') in 0.009773 seconds 
+  Import took 0.013388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_33_delay-1.66s.gif
+  artifactKey: Guid(ee28c5f20e7a1b94f9d7f0dd38e248d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_33_delay-1.66s.gif using Guid(ee28c5f20e7a1b94f9d7f0dd38e248d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7128cd98abf4a766ea4d830ac9813750') in 0.011132 seconds 
+  Import took 0.014675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_31_delay-0.13s.gif
+  artifactKey: Guid(56bcb92c01745244080e0560eabbc8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_31_delay-0.13s.gif using Guid(56bcb92c01745244080e0560eabbc8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4071e8d5483b21f0544a872ee611a3e7') in 0.009187 seconds 
+  Import took 0.013159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_26_delay-0.13s.gif
+  artifactKey: Guid(3189e66b9516ac74fbd0e8608ad8647d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_26_delay-0.13s.gif using Guid(3189e66b9516ac74fbd0e8608ad8647d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a3c3b6b381e6040dafca135276f77c') in 0.009373 seconds 
+  Import took 0.012575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_37_delay-1.33s.gif
+  artifactKey: Guid(dca5c500c1f684d409d66ec416b478be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_37_delay-1.33s.gif using Guid(dca5c500c1f684d409d66ec416b478be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693f5190428484a3f960ce456f703a6d') in 0.009193 seconds 
+  Import took 0.012889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.684652 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_15_delay-0.5s.gif
+  artifactKey: Guid(d4317e0745829794ba912248ba9e2fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_15_delay-0.5s.gif using Guid(d4317e0745829794ba912248ba9e2fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c35942c6e295bee4af1c771fa41068') in 0.043320 seconds 
+  Import took 0.046457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_29_delay-0.13s.gif
+  artifactKey: Guid(983fa32d63739244dbc17a5487c2ebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_29_delay-0.13s.gif using Guid(983fa32d63739244dbc17a5487c2ebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c123953b59bbb45e903a36d82e4798ce') in 0.013569 seconds 
+  Import took 0.016801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_38_delay-0.13s.gif
+  artifactKey: Guid(992cc5928d0f90a409e9d845e05ba1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_38_delay-0.13s.gif using Guid(992cc5928d0f90a409e9d845e05ba1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d686271a8c17c42d4011431503f349') in 0.013949 seconds 
+  Import took 0.017423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_35_delay-0.13s.gif
+  artifactKey: Guid(7203b23fb5b8ddf4c9310d95d836f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_35_delay-0.13s.gif using Guid(7203b23fb5b8ddf4c9310d95d836f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a893e4264a79e88dfcb9ac69b04dc536') in 0.012991 seconds 
+  Import took 0.016313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_34_delay-0.13s.gif
+  artifactKey: Guid(2b625787b321da64db93796cffc7c81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_34_delay-0.13s.gif using Guid(2b625787b321da64db93796cffc7c81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61fbfdf8c05bb4637d3020828a929d1') in 0.010842 seconds 
+  Import took 0.014149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_39_delay-1.66s.gif
+  artifactKey: Guid(273d9cf64e7732e40a448c88c11e6d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_39_delay-1.66s.gif using Guid(273d9cf64e7732e40a448c88c11e6d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b67926672fe025a85ee82132c807067') in 0.013079 seconds 
+  Import took 0.016572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_30_delay-0.13s.gif
+  artifactKey: Guid(4a0dac101485d23448bd6d9087b6d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_30_delay-0.13s.gif using Guid(4a0dac101485d23448bd6d9087b6d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6091fead9775c84b2ad89fbab03a7f6') in 0.014653 seconds 
+  Import took 0.018795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_32_delay-0.13s.gif
+  artifactKey: Guid(e37fc432423a21547bed036e691d10b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_32_delay-0.13s.gif using Guid(e37fc432423a21547bed036e691d10b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc6ba0aa7e24649dc63dc13cc98f936') in 0.012858 seconds 
+  Import took 0.016223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_36_delay-0.13s.gif
+  artifactKey: Guid(585bb2c44a25d404ea7f4d44ff578521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_36_delay-0.13s.gif using Guid(585bb2c44a25d404ea7f4d44ff578521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffb56b7e6aaaff79866c2220bad8b2a') in 0.014159 seconds 
+  Import took 0.018734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_33_delay-1.66s.gif
+  artifactKey: Guid(ee28c5f20e7a1b94f9d7f0dd38e248d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_33_delay-1.66s.gif using Guid(ee28c5f20e7a1b94f9d7f0dd38e248d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94500f2d3e9e1b92f0c061e5962c7d5') in 0.015274 seconds 
+  Import took 0.019640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_28_delay-0.13s.gif
+  artifactKey: Guid(eab188191cca51249b64391c621e28fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_28_delay-0.13s.gif using Guid(eab188191cca51249b64391c621e28fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffaee3c3f004d4871ef58a15c028e82') in 0.011252 seconds 
+  Import took 0.015024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_31_delay-0.13s.gif
+  artifactKey: Guid(56bcb92c01745244080e0560eabbc8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_31_delay-0.13s.gif using Guid(56bcb92c01745244080e0560eabbc8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a625e990b4bf31f6a572201fa95c83be') in 0.011136 seconds 
+  Import took 0.014224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_37_delay-1.33s.gif
+  artifactKey: Guid(dca5c500c1f684d409d66ec416b478be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_37_delay-1.33s.gif using Guid(dca5c500c1f684d409d66ec416b478be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1ad5952c58be9ed8b901c84866473a') in 0.012924 seconds 
+  Import took 0.016771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 389.704742 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_24_delay-0.13s.gif
+  artifactKey: Guid(03422bf5a34472e47beae2cb080d531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_24_delay-0.13s.gif using Guid(03422bf5a34472e47beae2cb080d531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dda0ed192ea07856cc32db4571bab52') in 0.012024 seconds 
+  Import took 0.016143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_25_delay-0.13s.gif
+  artifactKey: Guid(0e01180aac24f9b43bb6b5094bb2c3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_25_delay-0.13s.gif using Guid(0e01180aac24f9b43bb6b5094bb2c3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8c6daffdf8b65ccd7b09797b043148') in 0.013191 seconds 
+  Import took 0.016119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_27_delay-0.13s.gif
+  artifactKey: Guid(d72baa473fe3d564e87390b592a845c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_27_delay-0.13s.gif using Guid(d72baa473fe3d564e87390b592a845c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ef6b3fd0f2cf42f1ea35e5f548c93b') in 0.011128 seconds 
+  Import took 0.014353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_21_delay-0.13s.gif
+  artifactKey: Guid(c839ae2fa8035e34d92db3558ed6e7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_21_delay-0.13s.gif using Guid(c839ae2fa8035e34d92db3558ed6e7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729f58185835cadafa77c077e9921293') in 0.012013 seconds 
+  Import took 0.015045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_22_delay-0.13s.gif
+  artifactKey: Guid(26d4f79332f60b84b950571b9189123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_22_delay-0.13s.gif using Guid(26d4f79332f60b84b950571b9189123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c922d928e18623f06b8eaeb79b60842c') in 0.011272 seconds 
+  Import took 0.014215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_16_delay-0.1s.gif
+  artifactKey: Guid(8206c468e479c3d48b7fdbfa70da9843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_16_delay-0.1s.gif using Guid(8206c468e479c3d48b7fdbfa70da9843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135ace9f06e3de83d47a95e6e307ab30') in 0.010788 seconds 
+  Import took 0.014255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_13_delay-0.13s.gif
+  artifactKey: Guid(80c0ba8f9b7aa2a428746dc1f7e6442b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_13_delay-0.13s.gif using Guid(80c0ba8f9b7aa2a428746dc1f7e6442b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee71e334116a452f66691cef4b73fbe5') in 0.011701 seconds 
+  Import took 0.015107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_17_delay-0.13s.gif
+  artifactKey: Guid(0a3addc452710e54d87e2cb078031378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_17_delay-0.13s.gif using Guid(0a3addc452710e54d87e2cb078031378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b883236cfcdd44aee3ea7c29cc13a36') in 0.011092 seconds 
+  Import took 0.014269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_11_delay-0.13s.gif
+  artifactKey: Guid(07af2a305f2251e46bef03600f524f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_11_delay-0.13s.gif using Guid(07af2a305f2251e46bef03600f524f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e623af29c67a6f56405fca60a7c7f22') in 0.014622 seconds 
+  Import took 0.018364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_09_delay-0.13s.gif
+  artifactKey: Guid(25d32e6f09f7fdb4099b1b961e430d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_09_delay-0.13s.gif using Guid(25d32e6f09f7fdb4099b1b961e430d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334b9ef9e494316b2e3eb3c656f5d511') in 0.012400 seconds 
+  Import took 0.016342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_14_delay-0.13s.gif
+  artifactKey: Guid(2a921940f966f904eb75796aa2f52883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_14_delay-0.13s.gif using Guid(2a921940f966f904eb75796aa2f52883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb217fd89d452dcd2ec65e9756fce9e4') in 0.012186 seconds 
+  Import took 0.015886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_05_delay-0.13s.gif
+  artifactKey: Guid(16ecff0cd99d8af46acef2f82de86e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_05_delay-0.13s.gif using Guid(16ecff0cd99d8af46acef2f82de86e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e107f23fd6c3faf1b696ac1aab9e9c') in 0.011693 seconds 
+  Import took 0.014691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_10_delay-0.13s.gif
+  artifactKey: Guid(e163ec96fc3dc1949b0b03727a739c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_10_delay-0.13s.gif using Guid(e163ec96fc3dc1949b0b03727a739c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f1cadcdad7ca154eb8b83f2ef00c32') in 0.013378 seconds 
+  Import took 0.017104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_08_delay-0.13s.gif
+  artifactKey: Guid(321c3b71b2b14c941bad3fe71d7d99d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_08_delay-0.13s.gif using Guid(321c3b71b2b14c941bad3fe71d7d99d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46624901c655772d5d81f9d17d266341') in 0.012658 seconds 
+  Import took 0.016288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_06_delay-0.13s.gif
+  artifactKey: Guid(9c8932f75511b244495f09073614f73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_06_delay-0.13s.gif using Guid(9c8932f75511b244495f09073614f73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f97581bc14ecbb8af13398da3948e5') in 0.010918 seconds 
+  Import took 0.013975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_04_delay-0.13s.gif
+  artifactKey: Guid(0d789e977fe761746b1a2bdd937a81fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_04_delay-0.13s.gif using Guid(0d789e977fe761746b1a2bdd937a81fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e9fdc2738e0498cf6adc34fe744d95') in 0.011181 seconds 
+  Import took 0.014275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_23_delay-0.13s.gif
+  artifactKey: Guid(b3203445c366e9a4a844767f2f01c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_23_delay-0.13s.gif using Guid(b3203445c366e9a4a844767f2f01c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cf552f915a2ab84433bec53c9a0823') in 0.011473 seconds 
+  Import took 0.014575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_12_delay-0.13s.gif
+  artifactKey: Guid(5071dc2a3f31e5042becd19417635d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_12_delay-0.13s.gif using Guid(5071dc2a3f31e5042becd19417635d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf90ea81d688729574a2c5977a2fac6') in 0.012042 seconds 
+  Import took 0.015227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_02_delay-0.13s.gif
+  artifactKey: Guid(12183e9a7ad2816428a4d83de99795c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_02_delay-0.13s.gif using Guid(12183e9a7ad2816428a4d83de99795c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ead516c77ad895976df27d74cd46d28') in 0.011248 seconds 
+  Import took 0.014247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_01_delay-0.13s.gif
+  artifactKey: Guid(5b676193e0c572b4b88d2cc2c5abcd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_01_delay-0.13s.gif using Guid(5b676193e0c572b4b88d2cc2c5abcd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0a6048f79436cc19c725f224591cef') in 0.012426 seconds 
+  Import took 0.015911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_03_delay-0.13s.gif
+  artifactKey: Guid(e47e71fb656209e46a920f13fe67c7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_03_delay-0.13s.gif using Guid(e47e71fb656209e46a920f13fe67c7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dac0152521be8c029d1a1cb1b88c36') in 0.011700 seconds 
+  Import took 0.014639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_18_delay-0.13s.gif
+  artifactKey: Guid(0fe9e974a4d501045a613db3da312176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_18_delay-0.13s.gif using Guid(0fe9e974a4d501045a613db3da312176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6acc121b616f38002ad7302014faf52') in 0.010920 seconds 
+  Import took 0.013900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_20_delay-0.13s.gif
+  artifactKey: Guid(dc3d3685f779ec841b95d09977e988fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_20_delay-0.13s.gif using Guid(dc3d3685f779ec841b95d09977e988fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9482ddd77dc988f9f6af6de4bb7d46eb') in 0.011051 seconds 
+  Import took 0.014459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_19_delay-0.13s.gif
+  artifactKey: Guid(3897e60a17440224f98669c23d52bfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_19_delay-0.13s.gif using Guid(3897e60a17440224f98669c23d52bfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab556fddf121e40a9b1191072943737') in 0.010888 seconds 
+  Import took 0.014361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_26_delay-0.13s.gif
+  artifactKey: Guid(3189e66b9516ac74fbd0e8608ad8647d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_26_delay-0.13s.gif using Guid(3189e66b9516ac74fbd0e8608ad8647d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3922183161fd4c8839984402511441') in 0.010594 seconds 
+  Import took 0.014105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_07_delay-0.13s.gif
+  artifactKey: Guid(d2568ec912314484e8e3475a01d9e21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_07_delay-0.13s.gif using Guid(d2568ec912314484e8e3475a01d9e21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64374504c8e962406e6de4a6ada82e9') in 0.011720 seconds 
+  Import took 0.015049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_00_delay-0.13s.gif
+  artifactKey: Guid(6f9c2317c94ff964faa1e388298f08a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Thinking/frame_00_delay-0.13s.gif using Guid(6f9c2317c94ff964faa1e388298f08a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970a2abd752c08ee2c4f61fc78d7eb45') in 0.010521 seconds 
+  Import took 0.013687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 457.674653 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/fist/frame_0_delay-3s.gif
+  artifactKey: Guid(80a9d5ce37f5eb24bbd5597a177193bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/fist/frame_0_delay-3s.gif using Guid(80a9d5ce37f5eb24bbd5597a177193bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9600de178a8247b12219cd89e36b2cae') in 0.014724 seconds 
+  Import took 0.018365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/fist/frame_3_delay-0.1s.gif
+  artifactKey: Guid(48d38e67391cbe94c8f3ae9336218e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/fist/frame_3_delay-0.1s.gif using Guid(48d38e67391cbe94c8f3ae9336218e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1568822a547eb2d6304ea5d8e9aacd') in 0.023639 seconds 
+  Import took 0.026545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/fist/frame_2_delay-0.1s.gif
+  artifactKey: Guid(2954c3b0a7d5ce6419622b2ca79db811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/fist/frame_2_delay-0.1s.gif using Guid(2954c3b0a7d5ce6419622b2ca79db811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edda677e70804ea9842afe16d4b14ff') in 0.017240 seconds 
+  Import took 0.020426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/fist/frame_1_delay-0.1s.gif
+  artifactKey: Guid(05e6e5aa2b943184aadbc9a0a10f9f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/fist/frame_1_delay-0.1s.gif using Guid(05e6e5aa2b943184aadbc9a0a10f9f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1285d0330fd4b2ee18642518b02b685') in 0.014906 seconds 
+  Import took 0.018344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 215.404494 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/glove/frame_0_delay-3s.gif
+  artifactKey: Guid(9d8178507b74b3343a1cd837c202a216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/glove/frame_0_delay-3s.gif using Guid(9d8178507b74b3343a1cd837c202a216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ab9fffbe6ae186c103904907a617a7') in 0.019641 seconds 
+  Import took 0.022711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/glove/frame_3_delay-0.1s.gif
+  artifactKey: Guid(2999c308b1b338746b347d6b5cad0831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/glove/frame_3_delay-0.1s.gif using Guid(2999c308b1b338746b347d6b5cad0831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9775533c01548f606eace93d91963713') in 0.021510 seconds 
+  Import took 0.024273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/glove/frame_1_delay-0.1s.gif
+  artifactKey: Guid(53d4fda6171fcd345a980b3882a20795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/glove/frame_1_delay-0.1s.gif using Guid(53d4fda6171fcd345a980b3882a20795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2db9ba403e04a1051227e46725dbdde') in 0.030589 seconds 
+  Import took 0.033759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/glove/frame_2_delay-0.1s.gif
+  artifactKey: Guid(e4502d7d50d2ee84294f5069e76218ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/glove/frame_2_delay-0.1s.gif using Guid(e4502d7d50d2ee84294f5069e76218ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed05f5c6d5f5a0f469e11e9dedee4862') in 0.022624 seconds 
+  Import took 0.025542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.892326 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/codef.png
+  artifactKey: Guid(abbee7dd12f617444926728d96b52541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/codef.png using Guid(abbee7dd12f617444926728d96b52541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1574928ab43e550f28d1745fcc092147') in 0.018548 seconds 
+  Import took 0.022298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/prosecutorempty.png
+  artifactKey: Guid(9d45efd6eee7adf41beabbae45d9dd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/prosecutorempty.png using Guid(9d45efd6eee7adf41beabbae45d9dd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1800a3b9fa1c9d05065548fd4d58e2ea') in 0.013553 seconds 
+  Import took 0.016731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/helperstand.png
+  artifactKey: Guid(f3ffb9887e9638048b9923ffc43af330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/helperstand.png using Guid(f3ffb9887e9638048b9923ffc43af330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc9468ff465ebae9b2a1422b608580b') in 0.012870 seconds 
+  Import took 0.015961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/witnessempty.png
+  artifactKey: Guid(6e128433144c9ff40bbf4b3b1b3bd2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/witnessempty.png using Guid(6e128433144c9ff40bbf4b3b1b3bd2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669e48aa64cb13df37093906a2e8795e') in 0.012816 seconds 
+  Import took 0.016087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/judgedesk.png
+  artifactKey: Guid(89d4a46ed7c55b449912b144a2820c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/judgedesk.png using Guid(89d4a46ed7c55b449912b144a2820c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb7598ff9a2cc30aebd48f172e65c64') in 0.015915 seconds 
+  Import took 0.019071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/defensedesk.png
+  artifactKey: Guid(124f5598f48612749b0e6581662d36af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/defensedesk.png using Guid(124f5598f48612749b0e6581662d36af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15fd3b15d53c4fc97ef3680c6daf0e1') in 0.012118 seconds 
+  Import took 0.015217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/witr_overlay.png
+  artifactKey: Guid(c881a4b2a64ed8546b68b248e316851f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/witr_overlay.png using Guid(c881a4b2a64ed8546b68b248e316851f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af4c4988a6ac7e83208b6883b0d4824') in 0.012893 seconds 
+  Import took 0.016593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/witl.png
+  artifactKey: Guid(15b42782b5dbdfa4b83cd572ea2add01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/witl.png using Guid(15b42782b5dbdfa4b83cd572ea2add01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991b4e662828403daf7a4dc663efb3d0') in 0.012500 seconds 
+  Import took 0.015635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/prohelperstand.png
+  artifactKey: Guid(a80939bafe0a3254abe32aaa41be8858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/prohelperstand.png using Guid(a80939bafe0a3254abe32aaa41be8858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8dcc693e2b346ba5480525283745ed') in 0.012886 seconds 
+  Import took 0.015962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/stand.png
+  artifactKey: Guid(c9b2527ef4997624eab402a342c3d8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/stand.png using Guid(c9b2527ef4997624eab402a342c3d8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0fe67075ce2f1785daae1224419300') in 0.010819 seconds 
+  Import took 0.013750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/witr.png
+  artifactKey: Guid(01973b358616c254cbb5abbe594f7c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/witr.png using Guid(01973b358616c254cbb5abbe594f7c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85656b1334e1af048085c39f26f87a4b') in 0.013158 seconds 
+  Import took 0.016147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/prosecutiondesk.png
+  artifactKey: Guid(899a6ecb3da13e3409f99e352da3b6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/prosecutiondesk.png using Guid(899a6ecb3da13e3409f99e352da3b6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca712f40a30eb66fa897591856f5a824') in 0.012050 seconds 
+  Import took 0.015191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/defenseempty.png
+  artifactKey: Guid(d50474a7d7c06d542bf08ee570f13dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/defenseempty.png using Guid(d50474a7d7c06d542bf08ee570f13dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee34be012b78e5df7e3ffadb4031fa2c') in 0.014023 seconds 
+  Import took 0.017019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/codef_overlay.png
+  artifactKey: Guid(2ee7d859f95449e499aa02769e04bba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/codef_overlay.png using Guid(2ee7d859f95449e499aa02769e04bba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff0a6b9b5d064c44f5ad2ea8eafc736') in 0.012364 seconds 
+  Import took 0.015386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/witl_overlay.png
+  artifactKey: Guid(cebb5b1bcbd3c7a4585d68227bc7a925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/witl_overlay.png using Guid(cebb5b1bcbd3c7a4585d68227bc7a925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401c9fcfbe178e64cd5799427a57bc72') in 0.011490 seconds 
+  Import took 0.014448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.922674 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/judgestand.png
+  artifactKey: Guid(5abace4d0cc491d459d5449735ba6225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/judgestand.png using Guid(5abace4d0cc491d459d5449735ba6225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3add388ef74ef9050a9e1a48c6cd3f31') in 0.013008 seconds 
+  Import took 0.016098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/jurydesk.png
+  artifactKey: Guid(0e8e41e13b1c2554da517ef5d168458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/jurydesk.png using Guid(0e8e41e13b1c2554da517ef5d168458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf5ce13a9c93a30c2c0463810b1ca04') in 0.016207 seconds 
+  Import took 0.019097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Temple/jurystand.png
+  artifactKey: Guid(fbc0107fd9380d340be2efe126a399c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Temple/jurystand.png using Guid(fbc0107fd9380d340be2efe126a399c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c2736e39a6e9c56f2b02ad10a223ef') in 0.014252 seconds 
+  Import took 0.017365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 311.124723 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/Kittan/Damaged/frame_0_delay-0.01s.gif
+  artifactKey: Guid(d203d6c5d48589c46916b6239f8ad7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/Kittan/Damaged/frame_0_delay-0.01s.gif using Guid(d203d6c5d48589c46916b6239f8ad7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229dbc58c832c96f927860e9478c1cda') in 0.018044 seconds 
+  Import took 0.021853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 475.758411 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/golden palace.jpg
+  artifactKey: Guid(41fed5e3599426742aea2ef431601aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/golden palace.jpg using Guid(41fed5e3599426742aea2ef431601aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff34dad1c444792a53b7d1fa5c0de9af') in 0.033839 seconds 
+  Import took 0.037664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Screenshot_HK_White_Palace_01.png
+  artifactKey: Guid(72cc6dbe4404fd04fa8bd5fc71c970ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Screenshot_HK_White_Palace_01.png using Guid(72cc6dbe4404fd04fa8bd5fc71c970ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b962ce3abafc42e11bd90e908012ae64') in 0.031249 seconds 
+  Import took 0.034298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/MH4U-Zona_Polar.jpg
+  artifactKey: Guid(a6d4e9740efc7ce409d366953bde0172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/MH4U-Zona_Polar.jpg using Guid(a6d4e9740efc7ce409d366953bde0172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d4b57a19f1639b9aaa8b4c142ef97e') in 0.064988 seconds 
+  Import took 0.068281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Images/Ace Attorney Assets/Backgrounds/Qliphoth.jpg
+  artifactKey: Guid(cede934bc3e1f9b4bad03dc033c20e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Backgrounds/Qliphoth.jpg using Guid(cede934bc3e1f9b4bad03dc033c20e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469ef660461422d8d6660fcdd900ca49') in 0.025718 seconds 
+  Import took 0.029219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 268.967459 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_0_delay-1.66s.gif
+  artifactKey: Guid(86586d9d456212940a383042c74f52d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_0_delay-1.66s.gif using Guid(86586d9d456212940a383042c74f52d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a22ba6b680d958220850e39c64b990') in 0.016426 seconds 
+  Import took 0.020104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_3_delay-0.1s.gif
+  artifactKey: Guid(3d895077e8760b946a8fef46dac440c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_3_delay-0.1s.gif using Guid(3d895077e8760b946a8fef46dac440c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e38ab1c263b495a2f10fad4a5074f8') in 0.013784 seconds 
+  Import took 0.016651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_6_delay-0.1s.gif
+  artifactKey: Guid(ac87e5b0cbfc3284ca7f352cd99e173c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_6_delay-0.1s.gif using Guid(ac87e5b0cbfc3284ca7f352cd99e173c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3c39ff6ce2d3cc0b8b25f09782c8ef') in 0.013743 seconds 
+  Import took 0.016582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_7_delay-0.1s.gif
+  artifactKey: Guid(825ed638310012e45a6de165dac0aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_7_delay-0.1s.gif using Guid(825ed638310012e45a6de165dac0aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617408ba7593dca74a895bbf5c468d11') in 0.017627 seconds 
+  Import took 0.021281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_8_delay-4s.gif
+  artifactKey: Guid(44d8c0fc08e6b644d91b496f282f150f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_8_delay-4s.gif using Guid(44d8c0fc08e6b644d91b496f282f150f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb213864206fb8bb20752adbe5f1e27b') in 0.022432 seconds 
+  Import took 0.025540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_4_delay-3.33s.gif
+  artifactKey: Guid(7ab4a94f31e01904393213ecf7140cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_4_delay-3.33s.gif using Guid(7ab4a94f31e01904393213ecf7140cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77f27ed3769ae2a3d11b7600fc6f99b') in 0.015465 seconds 
+  Import took 0.018545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_1_delay-0.1s.gif
+  artifactKey: Guid(ce7a51557db41aa4c9986d41fa18fbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_1_delay-0.1s.gif using Guid(ce7a51557db41aa4c9986d41fa18fbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0419553e9b9e1155e31366f76c8d2a19') in 0.015362 seconds 
+  Import took 0.018473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_5_delay-0.1s.gif
+  artifactKey: Guid(8db13cbf3ddc27742b7ff6e85a24ea0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_5_delay-0.1s.gif using Guid(8db13cbf3ddc27742b7ff6e85a24ea0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9b5b8afc073c73d4d7256e64609976') in 0.043569 seconds 
+  Import took 0.046892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_2_delay-0.1s.gif
+  artifactKey: Guid(5ad6b2bbdde44ff4dbd534fe179745f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Confident/frame_2_delay-0.1s.gif using Guid(5ad6b2bbdde44ff4dbd534fe179745f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5985493ec0f87fb1a4154d52cbd3c73e') in 0.031112 seconds 
+  Import took 0.034140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 273.831513 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_0_delay-1.66s.gif
+  artifactKey: Guid(d47e8d48c498d2741944b534e07ca884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_0_delay-1.66s.gif using Guid(d47e8d48c498d2741944b534e07ca884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca15d610cfa9c0c2a0c3d00634d86712') in 0.017319 seconds 
+  Import took 0.021026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_4_delay-3.33s.gif
+  artifactKey: Guid(fcfc1d2ad03224343b3183e59d7a53a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_4_delay-3.33s.gif using Guid(fcfc1d2ad03224343b3183e59d7a53a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6ab74ead893d4975feb172411c6b81') in 0.013280 seconds 
+  Import took 0.016753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_1_delay-0.1s.gif
+  artifactKey: Guid(abe6e32c8f94e0b4f8eb6dfb21611305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_1_delay-0.1s.gif using Guid(abe6e32c8f94e0b4f8eb6dfb21611305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b854b0794e33ae3cf54ae351b77f0cd') in 0.012921 seconds 
+  Import took 0.015939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_2_delay-0.1s.gif
+  artifactKey: Guid(ed5300056055fa1478b7420af14f537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_2_delay-0.1s.gif using Guid(ed5300056055fa1478b7420af14f537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee7d4b4dfd1a945c395bcf2be8cc82d') in 0.011092 seconds 
+  Import took 0.014079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_8_delay-4s.gif
+  artifactKey: Guid(fbc766dc40ec3374faaff36e8cb635fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_8_delay-4s.gif using Guid(fbc766dc40ec3374faaff36e8cb635fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641521b35a92006833dfa2639822bb90') in 0.009798 seconds 
+  Import took 0.012906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_6_delay-0.1s.gif
+  artifactKey: Guid(3ea1dce92d8d90147871de9d8175d148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_6_delay-0.1s.gif using Guid(3ea1dce92d8d90147871de9d8175d148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90acc2f8ce880ef45b0ef45cce5a02c5') in 0.010055 seconds 
+  Import took 0.012919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_5_delay-0.1s.gif
+  artifactKey: Guid(d89667f87c396f14aa2a1a4d85d2e0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_5_delay-0.1s.gif using Guid(d89667f87c396f14aa2a1a4d85d2e0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dc08b05948a38e17f7beda674397fa') in 0.011300 seconds 
+  Import took 0.014236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_3_delay-0.1s.gif
+  artifactKey: Guid(df9f0d957f04e4e4c9e33d324f66d2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_3_delay-0.1s.gif using Guid(df9f0d957f04e4e4c9e33d324f66d2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8b16b5df0aacad17323444203d554f') in 0.012507 seconds 
+  Import took 0.015530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_7_delay-0.1s.gif
+  artifactKey: Guid(3f34c80c6c84582428b3a00f2cd2d569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Ace Attorney Assets/Characters/VydValkKam/Handondesk/frame_7_delay-0.1s.gif using Guid(3f34c80c6c84582428b3a00f2cd2d569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adb8d1396019a1109e3d5ba883bd804') in 0.012227 seconds 
+  Import took 0.015241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.371651 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/DepthMaskedRefraction.asset
+  artifactKey: Guid(c805f061214177c42bca056464193f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/DepthMaskedRefraction.asset using Guid(c805f061214177c42bca056464193f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86ad0db58346eba05195a2f4a9ed9fd') in 0.015599 seconds 
+  Import took 0.019128 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Domain Reload Profiling:
+	ReloadAssembly (893ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2852.
+Total: 2.200900 ms (FindLiveObjects: 0.171100 ms CreateObjectMapping: 0.090700 ms MarkObjects: 1.925400 ms  DeleteObjects: 0.012900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004046 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (803ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (665ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.3 MB.
+System memory in use after: 109.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2854.
+Total: 2.267900 ms (FindLiveObjects: 0.184700 ms CreateObjectMapping: 0.101600 ms MarkObjects: 1.968600 ms  DeleteObjects: 0.012200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005239 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (943ms)
+			LoadAssemblies (322ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.3 MB.
+System memory in use after: 109.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2856.
+Total: 2.371600 ms (FindLiveObjects: 0.180000 ms CreateObjectMapping: 0.098200 ms MarkObjects: 2.080300 ms  DeleteObjects: 0.012400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.185176 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Domain Reload Profiling:
+	ReloadAssembly (951ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (757ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2858.
+Total: 3.896800 ms (FindLiveObjects: 0.235300 ms CreateObjectMapping: 0.151000 ms MarkObjects: 3.490500 ms  DeleteObjects: 0.017900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46528.478422 seconds.
+  path: Assets/Scenes/VN.unity
+  artifactKey: Guid(797ce1c38861ded4bb90897c24b9ffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VN.unity using Guid(797ce1c38861ded4bb90897c24b9ffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3de29fa3eee2a4ff1e9a912bb74604') in 0.183734 seconds 
+  Import took 0.188129 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.149000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (800ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (661ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.3 MB.
+System memory in use after: 109.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2860.
+Total: 2.476000 ms (FindLiveObjects: 0.180900 ms CreateObjectMapping: 0.098100 ms MarkObjects: 2.184300 ms  DeleteObjects: 0.012200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,0 +1,32 @@
+SetEmote(BlackScene, Narrator)
+???: {abp 3} @SetEmote(001); PlayMusic(RevealingExposition)@ {abp 3} @SetBackground(Witness, SpaceCourt); SetEmote(Empty);SetBlip(Senko)@ "Oddities, creatures born from the mind"
+SetBackground(Witness, SpaceCourt)
+SetEmote(BlackScreen, Narrator)
+SetBlip(KissShot)
+???2: "Their power levels are based on the humanoid thoughts that believe in them."
+???: "If everyone forgets about them..."
+???2: "They stop existing."
+???: "There are many types of oddities."
+???2: "Bakenekos, Nekomatas, Lost Snails, Copy Chameleons..."
+???: "Though they are the bottom of oddity powers, most could not face even one of them at full force."
+???2: "If we go to the top, we reach inmortal oddities."
+???: "Oddities which are unable to be killed. Fully at least."
+???2: "Any time they are defeated, they just go into a regenerative state."
+???: "And at some point..."
+???2: "They come back."
+???: "Shikigami, zombies, even Gods could fit into this category."
+???2: "Though none could compare to..."
+???: "...the most powerful type of them all."
+???2: "|Vampires.|"
+???: "The pure belief and fear of their physical counterparts..."
+??2?: "...became legends powerful enough to create oddities above any physical vampire in existence."
+???: "And even between vampires..."
+???2: "I would reign above them all."
+???: "The Queen of Oddities."
+???2: "I have received many names, in my years of existence."
+???: "But the only one she ever used personally was..."
+???2: "KissShot-"
+???: "Acerola Orion-"
+???2: "Heart Under Blade."
+???: "|The Queen of Vampires.|"
+Load(chapter_1_2)

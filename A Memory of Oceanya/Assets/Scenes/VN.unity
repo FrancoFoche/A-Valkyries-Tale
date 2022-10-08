@@ -1016,6 +1016,1400 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228946627}
   m_CullTransparentMesh: 0
+--- !u!1001 &236081499
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: music.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: music.Array.data[10].name
+      value: Sanpo
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: music.Array.data[11].name
+      value: ScientificEndeavors
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: music.Array.data[10].music
+      value: 
+      objectReference: {fileID: 8300000, guid: 4b70d10ee6df79e40b2441c00a44f187, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: music.Array.data[11].music
+      value: 
+      objectReference: {fileID: 8300000, guid: afad39f63aee5cf429b860aa70b38798, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].pos
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].pos
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].blip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2c10c60a38d6c0643ba2f8b895c2709c, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].name
+      value: VydValkKam
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].blip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2c10c60a38d6c0643ba2f8b895c2709c, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].name
+      value: Kittan
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].name
+      value: Temple
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].name
+      value: Asgard
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[6].name
+      value: Tundra
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[7].name
+      value: Yggdrasil
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[8].name
+      value: HallOfGods
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].judge.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 6e128433144c9ff40bbf4b3b1b3bd2ba, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].judge.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 41fed5e3599426742aea2ef431601aea, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[6].judge.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: a6d4e9740efc7ce409d366953bde0172, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[7].judge.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: cede934bc3e1f9b4bad03dc033c20e95, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[8].judge.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 72cc6dbe4404fd04fa8bd5fc71c970ba, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].currentPos
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].defense.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: d50474a7d7c06d542bf08ee570f13dc1, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].judge.desk
+      value: 
+      objectReference: {fileID: 2800000, guid: 89d4a46ed7c55b449912b144a2820c93, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].witness.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 6e128433144c9ff40bbf4b3b1b3bd2ba, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].currentPos
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].defense.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 41fed5e3599426742aea2ef431601aea, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].judge.desk
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].witness.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 41fed5e3599426742aea2ef431601aea, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[6].currentPos
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[6].defense.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: a6d4e9740efc7ce409d366953bde0172, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[6].witness.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: a6d4e9740efc7ce409d366953bde0172, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[7].currentPos
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[7].defense.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: cede934bc3e1f9b4bad03dc033c20e95, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[7].witness.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: cede934bc3e1f9b4bad03dc033c20e95, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[8].currentPos
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[8].defense.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 72cc6dbe4404fd04fa8bd5fc71c970ba, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[8].witness.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 72cc6dbe4404fd04fa8bd5fc71c970ba, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].defense.desk
+      value: 
+      objectReference: {fileID: 2800000, guid: 124f5598f48612749b0e6581662d36af, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].witness.desk
+      value: 
+      objectReference: {fileID: 2800000, guid: c9b2527ef4997624eab402a342c3d8c5, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].defense.desk
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].witness.desk
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].helper_def.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: abbee7dd12f617444926728d96b52541, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].helper_pro.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: a80939bafe0a3254abe32aaa41be8858, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].judge.highRes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].helper_def.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 41fed5e3599426742aea2ef431601aea, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].helper_pro.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 41fed5e3599426742aea2ef431601aea, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[6].helper_def.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: a6d4e9740efc7ce409d366953bde0172, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[6].helper_pro.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: a6d4e9740efc7ce409d366953bde0172, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[7].helper_def.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: cede934bc3e1f9b4bad03dc033c20e95, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[7].helper_pro.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: cede934bc3e1f9b4bad03dc033c20e95, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[8].helper_def.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 72cc6dbe4404fd04fa8bd5fc71c970ba, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[8].helper_pro.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 72cc6dbe4404fd04fa8bd5fc71c970ba, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].prosecution.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 9d45efd6eee7adf41beabbae45d9dd9a, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].prosecution.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 41fed5e3599426742aea2ef431601aea, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[6].prosecution.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: a6d4e9740efc7ce409d366953bde0172, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[7].prosecution.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: cede934bc3e1f9b4bad03dc033c20e95, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[8].prosecution.bg
+      value: 
+      objectReference: {fileID: 2800000, guid: 72cc6dbe4404fd04fa8bd5fc71c970ba, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].defense.highRes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].helper_def.desk
+      value: 
+      objectReference: {fileID: 2800000, guid: 2ee7d859f95449e499aa02769e04bba1, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].witness.highRes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].helper_def.desk
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].prosecution.desk
+      value: 
+      objectReference: {fileID: 2800000, guid: 899a6ecb3da13e3409f99e352da3b6d5, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[5].prosecution.desk
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].helper_def.highRes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].helper_pro.highRes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: courtrooms.Array.data[4].prosecution.highRes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[0].name
+      value: Zoom
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].name
+      value: Thinking
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].name
+      value: Confident
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].name
+      value: Handondesk
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[4].name
+      value: Irritated
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[5].name
+      value: Lollipop
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[6].name
+      value: Normal
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[7].name
+      value: Phonecall
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[8].name
+      value: Scooter
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[9].name
+      value: SickoMode
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[0].name
+      value: Side2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[1].name
+      value: Fist
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[2].name
+      value: Glove
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].name
+      value: Lazy
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].name
+      value: Damaged
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[4].sprite
+      value: 
+      objectReference: {fileID: 2800000, guid: 15dec75567cc654428955ab8c8cabc59, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[5].sprite
+      value: 
+      objectReference: {fileID: 2800000, guid: 6ca33a9db94de804a9ff86a1e9794036, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[6].sprite
+      value: 
+      objectReference: {fileID: 2800000, guid: fd4f8226125b6134f88774ea0a2c0822, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[7].sprite
+      value: 
+      objectReference: {fileID: 2800000, guid: d1043cbfd6832ec4996fceeec835b6a0, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[8].sprite
+      value: 
+      objectReference: {fileID: 2800000, guid: 47a96cf831a525442b505628cce43196, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[9].sprite
+      value: 
+      objectReference: {fileID: 2800000, guid: 711e012eb1d5e8f4387ef8dd0396a9df, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].showDesk
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].showDesk
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].showDesk
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[0].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[4].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[5].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[6].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[7].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[8].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[9].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[0].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[1].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[2].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].animSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[0].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3f6aeae0971650246800a564a6b0643a, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[0].preanimSprites.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: dca5c500c1f684d409d66ec416b478be, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.size
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 86586d9d456212940a383042c74f52d8, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: d47e8d48c498d2741944b534e07ca884, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].preanimSprites.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[4].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 15dec75567cc654428955ab8c8cabc59, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[5].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 6ca33a9db94de804a9ff86a1e9794036, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[6].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: fd4f8226125b6134f88774ea0a2c0822, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[7].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: d1043cbfd6832ec4996fceeec835b6a0, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[8].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 47a96cf831a525442b505628cce43196, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[9].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 711e012eb1d5e8f4387ef8dd0396a9df, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[0].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: bd84a98f95c8a7943a563fcd99a6f3ae, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[0].preanimSprites.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[1].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 80a9d5ce37f5eb24bbd5597a177193bc, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[1].preanimSprites.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[2].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 9d8178507b74b3343a1cd837c202a216, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[2].preanimSprites.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 0d0bd689f3d837c4aa10f65efa142711, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].preanimSprites.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].animSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: d203d6c5d48589c46916b6239f8ad7ef, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].preanimSprites.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[0].preanimSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3f6aeae0971650246800a564a6b0643a, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[0].preanimSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: 5deb59a431423a54299fdabc5a772814, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[0].preanimSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: 97626d1e248408743848cec70db4ae00, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[0].preanimSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: 9cd233ca30ccfab4dacbae20120d492e, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 6f9c2317c94ff964faa1e388298f08a3, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: 5b676193e0c572b4b88d2cc2c5abcd38, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: 12183e9a7ad2816428a4d83de99795c4, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: e47e71fb656209e46a920f13fe67c7cc, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 2800000, guid: 0d789e977fe761746b1a2bdd937a81fb, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: 2800000, guid: 16ecff0cd99d8af46acef2f82de86e2b, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 2800000, guid: 9c8932f75511b244495f09073614f73c, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: 2800000, guid: d2568ec912314484e8e3475a01d9e21f, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 2800000, guid: 321c3b71b2b14c941bad3fe71d7d99d3, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 2800000, guid: 25d32e6f09f7fdb4099b1b961e430d55, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 44d8c0fc08e6b644d91b496f282f150f, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: 86586d9d456212940a383042c74f52d8, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: ce7a51557db41aa4c9986d41fa18fbd3, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: 5ad6b2bbdde44ff4dbd534fe179745f3, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3d895077e8760b946a8fef46dac440c1, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: 2800000, guid: 7ab4a94f31e01904393213ecf7140cdd, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 2800000, guid: 8db13cbf3ddc27742b7ff6e85a24ea0e, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: 2800000, guid: ac87e5b0cbfc3284ca7f352cd99e173c, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 2800000, guid: 825ed638310012e45a6de165dac0aa37, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 2800000, guid: 25d32e6f09f7fdb4099b1b961e430d55, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].preanimSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: d47e8d48c498d2741944b534e07ca884, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].preanimSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: abe6e32c8f94e0b4f8eb6dfb21611305, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].preanimSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: ed5300056055fa1478b7420af14f537c, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].preanimSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: df9f0d957f04e4e4c9e33d324f66d2a1, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].preanimSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 2800000, guid: fcfc1d2ad03224343b3183e59d7a53a0, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].preanimSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: 2800000, guid: d89667f87c396f14aa2a1a4d85d2e0cf, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].preanimSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3ea1dce92d8d90147871de9d8175d148, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].preanimSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3f34c80c6c84582428b3a00f2cd2d569, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[3].preanimSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 2800000, guid: fbc766dc40ec3374faaff36e8cb635fd, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[0].preanimSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 48f6d2df31ea9504b8e00f6016f6832d, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[0].preanimSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: bd84a98f95c8a7943a563fcd99a6f3ae, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[0].preanimSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: 366ea9224df3a1540ab561cbe94f90ab, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[0].preanimSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: 855b6a57cc2477b479ec61aca0ab04ca, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[1].preanimSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 48d38e67391cbe94c8f3ae9336218e16, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[1].preanimSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: 80a9d5ce37f5eb24bbd5597a177193bc, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[1].preanimSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: 05e6e5aa2b943184aadbc9a0a10f9f13, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[1].preanimSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: 2954c3b0a7d5ce6419622b2ca79db811, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[2].preanimSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 2999c308b1b338746b347d6b5cad0831, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[2].preanimSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: 9d8178507b74b3343a1cd837c202a216, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[2].preanimSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: 53d4fda6171fcd345a980b3882a20795, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[2].preanimSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: e4502d7d50d2ee84294f5069e76218ef, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].preanimSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 0d0bd689f3d837c4aa10f65efa142711, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].preanimSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: 11561981ed307a94589a0357e74878df, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].preanimSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: f769db6e38fc5204fa88d73789afb931, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].preanimSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: 53b8137ab896f8347a5d1fceecc69e26, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].preanimSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 2800000, guid: c59a7dbfc304d154b8858633be49f857, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].preanimSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: 2800000, guid: c1aead5f986820849b21c73640dd5ba9, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].preanimSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 2800000, guid: abe06c23a07d5c946b86aa9b2aa9ec2a, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].preanimSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: 2800000, guid: 2f279df5061ea4046bde001029e5276b, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].preanimSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 2800000, guid: 736f6f01fd5d5004c837f47b49a36ea5, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].preanimSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 2800000, guid: cd02ff6f5170d494f92e4ea75a72aad8, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].preanimSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 0d0bd689f3d837c4aa10f65efa142711, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].preanimSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: 11561981ed307a94589a0357e74878df, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].preanimSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: f769db6e38fc5204fa88d73789afb931, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].preanimSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: 53b8137ab896f8347a5d1fceecc69e26, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].preanimSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 2800000, guid: c59a7dbfc304d154b8858633be49f857, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].preanimSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: 2800000, guid: c1aead5f986820849b21c73640dd5ba9, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].preanimSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 2800000, guid: abe06c23a07d5c946b86aa9b2aa9ec2a, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].preanimSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: 2800000, guid: 2f279df5061ea4046bde001029e5276b, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].preanimSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 2800000, guid: 736f6f01fd5d5004c837f47b49a36ea5, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].preanimSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 2800000, guid: cd02ff6f5170d494f92e4ea75a72aad8, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: 2800000, guid: e163ec96fc3dc1949b0b03727a739c78, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 2800000, guid: 07af2a305f2251e46bef03600f524f5b, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 2800000, guid: 5071dc2a3f31e5042becd19417635d7d, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[13]
+      value: 
+      objectReference: {fileID: 2800000, guid: 80c0ba8f9b7aa2a428746dc1f7e6442b, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[14]
+      value: 
+      objectReference: {fileID: 2800000, guid: 2a921940f966f904eb75796aa2f52883, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[15]
+      value: 
+      objectReference: {fileID: 2800000, guid: d4317e0745829794ba912248ba9e2fda, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[16]
+      value: 
+      objectReference: {fileID: 2800000, guid: 8206c468e479c3d48b7fdbfa70da9843, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[17]
+      value: 
+      objectReference: {fileID: 2800000, guid: 0a3addc452710e54d87e2cb078031378, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[18]
+      value: 
+      objectReference: {fileID: 2800000, guid: 0fe9e974a4d501045a613db3da312176, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[19]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3897e60a17440224f98669c23d52bfd5, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[20]
+      value: 
+      objectReference: {fileID: 2800000, guid: dc3d3685f779ec841b95d09977e988fd, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[21]
+      value: 
+      objectReference: {fileID: 2800000, guid: c839ae2fa8035e34d92db3558ed6e7ab, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[22]
+      value: 
+      objectReference: {fileID: 2800000, guid: 26d4f79332f60b84b950571b9189123c, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[23]
+      value: 
+      objectReference: {fileID: 2800000, guid: b3203445c366e9a4a844767f2f01c67e, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[24]
+      value: 
+      objectReference: {fileID: 2800000, guid: 03422bf5a34472e47beae2cb080d531d, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[25]
+      value: 
+      objectReference: {fileID: 2800000, guid: 0e01180aac24f9b43bb6b5094bb2c3ee, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[26]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3189e66b9516ac74fbd0e8608ad8647d, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[27]
+      value: 
+      objectReference: {fileID: 2800000, guid: d72baa473fe3d564e87390b592a845c2, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[28]
+      value: 
+      objectReference: {fileID: 2800000, guid: eab188191cca51249b64391c621e28fe, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[29]
+      value: 
+      objectReference: {fileID: 2800000, guid: 983fa32d63739244dbc17a5487c2ebb5, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[30]
+      value: 
+      objectReference: {fileID: 2800000, guid: 4a0dac101485d23448bd6d9087b6d9fd, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[31]
+      value: 
+      objectReference: {fileID: 2800000, guid: 56bcb92c01745244080e0560eabbc8bd, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[32]
+      value: 
+      objectReference: {fileID: 2800000, guid: e37fc432423a21547bed036e691d10b7, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[33]
+      value: 
+      objectReference: {fileID: 2800000, guid: ee28c5f20e7a1b94f9d7f0dd38e248d5, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[34]
+      value: 
+      objectReference: {fileID: 2800000, guid: 2b625787b321da64db93796cffc7c81f, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[35]
+      value: 
+      objectReference: {fileID: 2800000, guid: 7203b23fb5b8ddf4c9310d95d836f4c5, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[36]
+      value: 
+      objectReference: {fileID: 2800000, guid: 585bb2c44a25d404ea7f4d44ff578521, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[37]
+      value: 
+      objectReference: {fileID: 2800000, guid: dca5c500c1f684d409d66ec416b478be, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[38]
+      value: 
+      objectReference: {fileID: 2800000, guid: 992cc5928d0f90a409e9d845e05ba1f7, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[1].preanimSprites.Array.data[39]
+      value: 
+      objectReference: {fileID: 2800000, guid: 273d9cf64e7732e40a448c88c11e6d1f, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: 2800000, guid: e163ec96fc3dc1949b0b03727a739c78, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 2800000, guid: 07af2a305f2251e46bef03600f524f5b, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 2800000, guid: 5071dc2a3f31e5042becd19417635d7d, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[13]
+      value: 
+      objectReference: {fileID: 2800000, guid: 80c0ba8f9b7aa2a428746dc1f7e6442b, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[14]
+      value: 
+      objectReference: {fileID: 2800000, guid: 2a921940f966f904eb75796aa2f52883, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[15]
+      value: 
+      objectReference: {fileID: 2800000, guid: d4317e0745829794ba912248ba9e2fda, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[16]
+      value: 
+      objectReference: {fileID: 2800000, guid: 8206c468e479c3d48b7fdbfa70da9843, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[17]
+      value: 
+      objectReference: {fileID: 2800000, guid: 0a3addc452710e54d87e2cb078031378, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[18]
+      value: 
+      objectReference: {fileID: 2800000, guid: 0fe9e974a4d501045a613db3da312176, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[19]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3897e60a17440224f98669c23d52bfd5, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[20]
+      value: 
+      objectReference: {fileID: 2800000, guid: dc3d3685f779ec841b95d09977e988fd, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[21]
+      value: 
+      objectReference: {fileID: 2800000, guid: c839ae2fa8035e34d92db3558ed6e7ab, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[22]
+      value: 
+      objectReference: {fileID: 2800000, guid: 26d4f79332f60b84b950571b9189123c, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[23]
+      value: 
+      objectReference: {fileID: 2800000, guid: b3203445c366e9a4a844767f2f01c67e, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[24]
+      value: 
+      objectReference: {fileID: 2800000, guid: 03422bf5a34472e47beae2cb080d531d, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[25]
+      value: 
+      objectReference: {fileID: 2800000, guid: 0e01180aac24f9b43bb6b5094bb2c3ee, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[26]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3189e66b9516ac74fbd0e8608ad8647d, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[27]
+      value: 
+      objectReference: {fileID: 2800000, guid: d72baa473fe3d564e87390b592a845c2, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[28]
+      value: 
+      objectReference: {fileID: 2800000, guid: eab188191cca51249b64391c621e28fe, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[29]
+      value: 
+      objectReference: {fileID: 2800000, guid: 983fa32d63739244dbc17a5487c2ebb5, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[30]
+      value: 
+      objectReference: {fileID: 2800000, guid: 4a0dac101485d23448bd6d9087b6d9fd, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[31]
+      value: 
+      objectReference: {fileID: 2800000, guid: 56bcb92c01745244080e0560eabbc8bd, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[32]
+      value: 
+      objectReference: {fileID: 2800000, guid: e37fc432423a21547bed036e691d10b7, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[33]
+      value: 
+      objectReference: {fileID: 2800000, guid: ee28c5f20e7a1b94f9d7f0dd38e248d5, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[34]
+      value: 
+      objectReference: {fileID: 2800000, guid: 2b625787b321da64db93796cffc7c81f, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[35]
+      value: 
+      objectReference: {fileID: 2800000, guid: 7203b23fb5b8ddf4c9310d95d836f4c5, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[36]
+      value: 
+      objectReference: {fileID: 2800000, guid: 585bb2c44a25d404ea7f4d44ff578521, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[37]
+      value: 
+      objectReference: {fileID: 2800000, guid: dca5c500c1f684d409d66ec416b478be, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[38]
+      value: 
+      objectReference: {fileID: 2800000, guid: 992cc5928d0f90a409e9d845e05ba1f7, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[7].emotes.Array.data[2].preanimSprites.Array.data[39]
+      value: 
+      objectReference: {fileID: 2800000, guid: 273d9cf64e7732e40a448c88c11e6d1f, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[3].preanimSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: 2800000, guid: 4717130677b4d41438a1b1b5f3382fd4, type: 3}
+    - target: {fileID: -2881866558029586903, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: characters.Array.data[8].emotes.Array.data[4].preanimSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: 2800000, guid: 4717130677b4d41438a1b1b5f3382fd4, type: 3}
+    - target: {fileID: 547425477119173853, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 547425477119173853, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 832.04614
+      objectReference: {fileID: 0}
+    - target: {fileID: 547425477119173853, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 76.20639
+      objectReference: {fileID: 0}
+    - target: {fileID: 547425477119173853, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 831.2815
+      objectReference: {fileID: 0}
+    - target: {fileID: 547425477119173853, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 547425477119173853, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 547425477119173853, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 547425477119173853, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 547425477119173853, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 547425477119173853, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 547425477119173853, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 760709716635241740, guid: 2840ca58ca4262f4baacb92f5c5f374e,
+        type: 3}
+      propertyPath: m_Name
+      value: GameAssets
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2840ca58ca4262f4baacb92f5c5f374e, type: 3}
 --- !u!1 &243284047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1735,1256 +3129,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460079662}
   m_CullTransparentMesh: 0
---- !u!1 &510265860
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 510265862}
-  - component: {fileID: 510265861}
-  m_Layer: 0
-  m_Name: Asset Database
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &510265861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 510265860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ff54fb6a32cc64468aa0f98b2177783, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  courtrooms:
-  - name: Anime
-    currentPos: 2
-    defense:
-      bg: {fileID: 2800000, guid: 18146c91fbdc25540bcd5fb1abadda90, type: 3}
-      desk: {fileID: 2800000, guid: 92e65f2604845f7438b667f15574259f, type: 3}
-      highRes: 0
-    judge:
-      bg: {fileID: 2800000, guid: 20dedfc9dff0ff943ab867e986aa5d0e, type: 3}
-      desk: {fileID: 2800000, guid: 417f44413644c68408d8a6a51abda574, type: 3}
-      highRes: 0
-    prosecution:
-      bg: {fileID: 2800000, guid: 5e4a0edd9d97d0a4e80e37bad59a0038, type: 3}
-      desk: {fileID: 2800000, guid: d27ed4c19a479134195f1348bd4abfb8, type: 3}
-      highRes: 0
-    witness:
-      bg: {fileID: 2800000, guid: 79d72537ace410b4f9009da4d25c2723, type: 3}
-      desk: {fileID: 2800000, guid: 1b249752cb0a4e24f96fb3986d4bd98e, type: 3}
-      highRes: 0
-    helper_def:
-      bg: {fileID: 2800000, guid: 2099c856ec14ef040a66d4052ccddf60, type: 3}
-      desk: {fileID: 0}
-      highRes: 0
-    helper_pro:
-      bg: {fileID: 2800000, guid: 3abd7da8e3102e24fb89e9caff8b0f84, type: 3}
-      desk: {fileID: 0}
-      highRes: 0
-  - name: SpaceCourt
-    currentPos: 2
-    defense:
-      bg: {fileID: 2800000, guid: 25c915bc64b0e6746ab6ecbbec8095ba, type: 3}
-      desk: {fileID: 2800000, guid: 03742b70aecc93f4f8e07c5520c5fbeb, type: 3}
-      highRes: 0
-    judge:
-      bg: {fileID: 2800000, guid: 97c0d4cd1a6d9f64a837083aa59f033b, type: 3}
-      desk: {fileID: 2800000, guid: bf528571f2d736e43997f1a9332d5ff4, type: 3}
-      highRes: 0
-    prosecution:
-      bg: {fileID: 2800000, guid: 78740376a2e77324db4ae4e8b07abc19, type: 3}
-      desk: {fileID: 2800000, guid: a2197d781079b514fa1aec2bed1e18b7, type: 3}
-      highRes: 0
-    witness:
-      bg: {fileID: 2800000, guid: bb8cde631d6287f498c6edbfa89dd29d, type: 3}
-      desk: {fileID: 2800000, guid: 3344de597c5702940a4bb931730de5e5, type: 3}
-      highRes: 0
-    helper_def:
-      bg: {fileID: 2800000, guid: 0ea8437d92f33e24a96df6a49426d617, type: 3}
-      desk: {fileID: 0}
-      highRes: 0
-    helper_pro:
-      bg: {fileID: 2800000, guid: d5dfc89021db194429ba5e4bd185d4bd, type: 3}
-      desk: {fileID: 0}
-      highRes: 0
-  - name: GS4Night
-    currentPos: 2
-    defense:
-      bg: {fileID: 2800000, guid: 6b223e3b5d67d7447b5b148f921d83b3, type: 3}
-      desk: {fileID: 2800000, guid: 264acc75bf796554a9ee83fc90b50c15, type: 3}
-      highRes: 0
-    judge:
-      bg: {fileID: 2800000, guid: b1317a1d7ba42b04e824ee596da2b461, type: 3}
-      desk: {fileID: 2800000, guid: 15c27919066dd7b47948e35b2c1ba2b5, type: 3}
-      highRes: 0
-    prosecution:
-      bg: {fileID: 2800000, guid: 724f83ed3534ee148a07f15fb0644923, type: 3}
-      desk: {fileID: 2800000, guid: d35a8d449eaa3b645b8ea1344bf6e398, type: 3}
-      highRes: 0
-    witness:
-      bg: {fileID: 2800000, guid: 7201d0fd6dbe30845861ceb37920908e, type: 3}
-      desk: {fileID: 2800000, guid: 26efbf4ff0638ab44bedbb7f370008f9, type: 3}
-      highRes: 0
-    helper_def:
-      bg: {fileID: 2800000, guid: f90d03fb1ac74334a88c8dcb0c8aa961, type: 3}
-      desk: {fileID: 2800000, guid: da2415e5f8255aa49932a05fefb586ba, type: 3}
-      highRes: 0
-    helper_pro:
-      bg: {fileID: 2800000, guid: 46ad4fd5887f4824fb3fd66b340dfac9, type: 3}
-      desk: {fileID: 2800000, guid: d3940b1fd952dda4e855c7a4b481d6cd, type: 3}
-      highRes: 0
-  characters:
-  - name: GaenIzuko
-    blip: {fileID: 8300000, guid: 6e479545b77587e46b628eb064749eb5, type: 3}
-    pos: 2
-    emotes:
-    - name: 16
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: ba408e976bd32cf41a650b804f06490b, type: 3}
-      sprite: {fileID: 2800000, guid: ba408e976bd32cf41a650b804f06490b, type: 3}
-      highRes: 0
-    - name: 15
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: bbec8e8bf678c5d4eb49de2ade0dcaaf, type: 3}
-      sprite: {fileID: 2800000, guid: bbec8e8bf678c5d4eb49de2ade0dcaaf, type: 3}
-      highRes: 0
-    - name: 1
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 6803b8bfe91764b4bbc9480fb9fa429f, type: 3}
-      sprite: {fileID: 2800000, guid: 6803b8bfe91764b4bbc9480fb9fa429f, type: 3}
-      highRes: 0
-    - name: 2
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 44328c8de2c8ee247ac23faf8ec7ce96, type: 3}
-      sprite: {fileID: 2800000, guid: 44328c8de2c8ee247ac23faf8ec7ce96, type: 3}
-      highRes: 0
-    - name: 3
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 6a11991c1e5cba241820eee855208fe0, type: 3}
-      sprite: {fileID: 2800000, guid: 6a11991c1e5cba241820eee855208fe0, type: 3}
-      highRes: 0
-    - name: 4
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 60cf0059ea89ac8449739b55a39b7083, type: 3}
-      sprite: {fileID: 2800000, guid: 60cf0059ea89ac8449739b55a39b7083, type: 3}
-      highRes: 0
-    - name: 5
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 4fac71b6f5822e64bb25290a797a74bc, type: 3}
-      sprite: {fileID: 2800000, guid: 4fac71b6f5822e64bb25290a797a74bc, type: 3}
-      highRes: 0
-    - name: 6
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: f870e223193e7ca4bb3f3706c6b12a61, type: 3}
-      sprite: {fileID: 2800000, guid: f870e223193e7ca4bb3f3706c6b12a61, type: 3}
-      highRes: 0
-    - name: 7
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 21e133703cb762e429b73c5fa20d8ff2, type: 3}
-      sprite: {fileID: 2800000, guid: 21e133703cb762e429b73c5fa20d8ff2, type: 3}
-      highRes: 0
-    - name: 8
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 0c48ef16dbf8e474691ef0f14787e41c, type: 3}
-      sprite: {fileID: 2800000, guid: 0c48ef16dbf8e474691ef0f14787e41c, type: 3}
-      highRes: 0
-    - name: 9
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 00101e9082202744db0b551594cd50c8, type: 3}
-      sprite: {fileID: 2800000, guid: 00101e9082202744db0b551594cd50c8, type: 3}
-      highRes: 0
-    - name: 10
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 592377e6c6a042c46930c277b45b121b, type: 3}
-      sprite: {fileID: 2800000, guid: 592377e6c6a042c46930c277b45b121b, type: 3}
-      highRes: 0
-    - name: 11
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 9048e611c1ba42644a1e2068868bbc3a, type: 3}
-      sprite: {fileID: 2800000, guid: 9048e611c1ba42644a1e2068868bbc3a, type: 3}
-      highRes: 0
-    - name: 12
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 1153a94348df31d489c0f231b6f50923, type: 3}
-      sprite: {fileID: 2800000, guid: 1153a94348df31d489c0f231b6f50923, type: 3}
-      highRes: 0
-    - name: 13
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 11a798bda926b5144a9e1f041dc42b26, type: 3}
-      sprite: {fileID: 2800000, guid: 11a798bda926b5144a9e1f041dc42b26, type: 3}
-      highRes: 0
-    - name: 14
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 24a0586c56b899e46b92fad5950248ae, type: 3}
-      sprite: {fileID: 2800000, guid: 24a0586c56b899e46b92fad5950248ae, type: 3}
-      highRes: 0
-  - name: Narrator
-    blip: {fileID: 0}
-    pos: 1
-    emotes:
-    - name: BlackScene
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: b1c65ae5f9c96f14087748492e0336ae, type: 3}
-      sprite: {fileID: 2800000, guid: b1c65ae5f9c96f14087748492e0336ae, type: 3}
-      highRes: 1
-    - name: BlackScreen
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 7b9afc486008abd40babfd65795a8981, type: 3}
-      sprite: {fileID: 2800000, guid: 7b9afc486008abd40babfd65795a8981, type: 3}
-      highRes: 0
-    - name: 001
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 3e2d809ac10c3aa4781ed878d8f3d078, type: 3}
-      sprite: {fileID: 2800000, guid: 3e2d809ac10c3aa4781ed878d8f3d078, type: 3}
-      highRes: 1
-    - name: Empty
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: dca4c3b41eaf26946bfd2cd7cf56ee2c, type: 3}
-      sprite: {fileID: 2800000, guid: dca4c3b41eaf26946bfd2cd7cf56ee2c, type: 3}
-      highRes: 1
-  - name: Loremaster
-    blip: {fileID: 8300000, guid: 6e479545b77587e46b628eb064749eb5, type: 3}
-    pos: 1
-    emotes:
-    - name: Backed
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: b1c30c4198885624caa05d9911652471, type: 3}
-      sprite: {fileID: 2800000, guid: b1c30c4198885624caa05d9911652471, type: 3}
-      highRes: 0
-    - name: Backed_Annoyed
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 0f067b9820c215947a70b6172f66bcb9, type: 3}
-      sprite: {fileID: 2800000, guid: 0f067b9820c215947a70b6172f66bcb9, type: 3}
-      highRes: 0
-    - name: Backed_Smile
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: cfc618007a035d740a1a54d336bd4e7f, type: 3}
-      sprite: {fileID: 2800000, guid: cfc618007a035d740a1a54d336bd4e7f, type: 3}
-      highRes: 0
-    - name: CheckNotes
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 86e3e9b617ba75944b8ed81bb0e09b64, type: 3}
-      sprite: {fileID: 2800000, guid: 86e3e9b617ba75944b8ed81bb0e09b64, type: 3}
-      highRes: 0
-    - name: Devious
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 34f64f185e5c812438bf3f6bd2ece686, type: 3}
-      sprite: {fileID: 2800000, guid: 34f64f185e5c812438bf3f6bd2ece686, type: 3}
-      highRes: 0
-    - name: EpicPie
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 42181d1b98465b34fbca0649d5e1159d, type: 3}
-      sprite: {fileID: 2800000, guid: 42181d1b98465b34fbca0649d5e1159d, type: 3}
-      highRes: 0
-    - name: Explaining_Excited
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 1422ceb7ded6cbd4cb1a1a5c64031917, type: 3}
-      sprite: {fileID: 2800000, guid: 1422ceb7ded6cbd4cb1a1a5c64031917, type: 3}
-      highRes: 0
-    - name: Explaining_LeftHandUp
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: e5c95f7cee5d4f549bcf7a2b20597c52, type: 3}
-      sprite: {fileID: 2800000, guid: e5c95f7cee5d4f549bcf7a2b20597c52, type: 3}
-      highRes: 0
-    - name: Explaining_RightHandUp
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 40c147c088445d946b5c005fc61036dc, type: 3}
-      sprite: {fileID: 2800000, guid: 40c147c088445d946b5c005fc61036dc, type: 3}
-      highRes: 0
-    - name: Flustered
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: f7e920751cbdf464da789d189aad7da3, type: 3}
-      sprite: {fileID: 2800000, guid: f7e920751cbdf464da789d189aad7da3, type: 3}
-      highRes: 0
-    - name: HappyRefusal
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: d055e150cbd53c845872aa44ce9a54d0, type: 3}
-      sprite: {fileID: 2800000, guid: d055e150cbd53c845872aa44ce9a54d0, type: 3}
-      highRes: 0
-    - name: HorribleRealization
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 66a208b5098af424bb974fb4606c3226, type: 3}
-      sprite: {fileID: 2800000, guid: 66a208b5098af424bb974fb4606c3226, type: 3}
-      highRes: 0
-    - name: HorribleRealization_Horrible
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: e129b5a11fd0b5746942a7f29d79412e, type: 3}
-      sprite: {fileID: 2800000, guid: e129b5a11fd0b5746942a7f29d79412e, type: 3}
-      highRes: 0
-    - name: NervousNotes
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 381e01e9892ae264d891ef7663923f35, type: 3}
-      sprite: {fileID: 2800000, guid: 381e01e9892ae264d891ef7663923f35, type: 3}
-      highRes: 0
-    - name: PostMocking
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: fac76f19a8fd611449c174e56fcba255, type: 3}
-      sprite: {fileID: 2800000, guid: fac76f19a8fd611449c174e56fcba255, type: 3}
-      highRes: 0
-    - name: Shrug
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 2045e731895673a47b4d49e9b37d5073, type: 3}
-      sprite: {fileID: 2800000, guid: 2045e731895673a47b4d49e9b37d5073, type: 3}
-      highRes: 0
-    - name: Success
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 4346553fa9b72d64a93b2de06c1c06e0, type: 3}
-      sprite: {fileID: 2800000, guid: 4346553fa9b72d64a93b2de06c1c06e0, type: 3}
-      highRes: 0
-    - name: Success_Oceanya
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 022f5414747b84f46b65c5bb416c61c4, type: 3}
-      sprite: {fileID: 2800000, guid: 022f5414747b84f46b65c5bb416c61c4, type: 3}
-      highRes: 0
-    - name: Thonk
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: ce1ab51915d8ec243996eda1c4f5ee49, type: 3}
-      sprite: {fileID: 2800000, guid: ce1ab51915d8ec243996eda1c4f5ee49, type: 3}
-      highRes: 0
-    - name: Thonk_Big
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: f572df678b83efa4eb12da8f9c87b149, type: 3}
-      sprite: {fileID: 2800000, guid: f572df678b83efa4eb12da8f9c87b149, type: 3}
-      highRes: 0
-  - name: KissShot
-    blip: {fileID: 8300000, guid: 6e479545b77587e46b628eb064749eb5, type: 3}
-    pos: 2
-    emotes:
-    - name: 1
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 1085ef05e78895a45b38d0c292783df0, type: 3}
-      sprite: {fileID: 2800000, guid: 1085ef05e78895a45b38d0c292783df0, type: 3}
-      highRes: 0
-    - name: 2
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: c7867d0699e677946985f1cb9d9cab85, type: 3}
-      sprite: {fileID: 2800000, guid: c7867d0699e677946985f1cb9d9cab85, type: 3}
-      highRes: 0
-    - name: 3
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 4bd0641b17ffe8a43a8e2fb9a77e6511, type: 3}
-      sprite: {fileID: 2800000, guid: 4bd0641b17ffe8a43a8e2fb9a77e6511, type: 3}
-      highRes: 0
-    - name: 4
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: fd458748e76d54c44b8cd85f3a82c8fa, type: 3}
-      sprite: {fileID: 2800000, guid: fd458748e76d54c44b8cd85f3a82c8fa, type: 3}
-      highRes: 0
-    - name: 5
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 61adbf01b2d64094e83f25f70837898f, type: 3}
-      sprite: {fileID: 2800000, guid: 61adbf01b2d64094e83f25f70837898f, type: 3}
-      highRes: 0
-    - name: 6
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 0772ad391c75b9f4bb8b03618a852ebf, type: 3}
-      sprite: {fileID: 2800000, guid: 0772ad391c75b9f4bb8b03618a852ebf, type: 3}
-      highRes: 0
-    - name: 7
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: c4b6945a9d2995743a3f61596979f232, type: 3}
-      sprite: {fileID: 2800000, guid: c4b6945a9d2995743a3f61596979f232, type: 3}
-      highRes: 0
-    - name: 8
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: a651c5d423a5cfe428245c6e49b18d7e, type: 3}
-      sprite: {fileID: 2800000, guid: a651c5d423a5cfe428245c6e49b18d7e, type: 3}
-      highRes: 0
-    - name: 9
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 1ecab66815e0d5448bf96b8060a7aa20, type: 3}
-      sprite: {fileID: 2800000, guid: 1ecab66815e0d5448bf96b8060a7aa20, type: 3}
-      highRes: 0
-    - name: 10
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 444d764bdf502b04a885c1511386df06, type: 3}
-      sprite: {fileID: 2800000, guid: 444d764bdf502b04a885c1511386df06, type: 3}
-      highRes: 0
-    - name: 11
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 36fb1e8ee57adc646a4ade5c5eb39e4e, type: 3}
-      sprite: {fileID: 2800000, guid: 36fb1e8ee57adc646a4ade5c5eb39e4e, type: 3}
-      highRes: 0
-    - name: 12
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: cf30a9070c380ec4db633b90f8ac68ed, type: 3}
-      sprite: {fileID: 2800000, guid: cf30a9070c380ec4db633b90f8ac68ed, type: 3}
-      highRes: 0
-    - name: 13
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: f36f558e600f83445914d6562fd15764, type: 3}
-      sprite: {fileID: 2800000, guid: f36f558e600f83445914d6562fd15764, type: 3}
-      highRes: 0
-    - name: 14
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 7a970262eac093a4cbb5c06e8375386e, type: 3}
-      sprite: {fileID: 2800000, guid: 7a970262eac093a4cbb5c06e8375386e, type: 3}
-      highRes: 0
-    - name: 15
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 1bf075d5980670842b55d8af431ec8d3, type: 3}
-      sprite: {fileID: 2800000, guid: 1bf075d5980670842b55d8af431ec8d3, type: 3}
-      highRes: 0
-    - name: 16
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 73acf081582b8784692ed7ffcef03b53, type: 3}
-      sprite: {fileID: 2800000, guid: 73acf081582b8784692ed7ffcef03b53, type: 3}
-      highRes: 0
-    - name: 17
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: d2f8ab1832176804898fb8f73a42b53a, type: 3}
-      sprite: {fileID: 2800000, guid: d2f8ab1832176804898fb8f73a42b53a, type: 3}
-      highRes: 0
-    - name: 18
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 27c935aa983019247a5ad33dce6cc859, type: 3}
-      sprite: {fileID: 2800000, guid: 27c935aa983019247a5ad33dce6cc859, type: 3}
-      highRes: 0
-    - name: 19
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: b24dc0d81990a8a4f956407c7bec95ee, type: 3}
-      sprite: {fileID: 2800000, guid: b24dc0d81990a8a4f956407c7bec95ee, type: 3}
-      highRes: 0
-    - name: 20
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 2b0714eb22d109648a19bb34e75e0591, type: 3}
-      sprite: {fileID: 2800000, guid: 2b0714eb22d109648a19bb34e75e0591, type: 3}
-      highRes: 0
-    - name: 21
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: caef9f715d25f9648ba02045b536297f, type: 3}
-      sprite: {fileID: 2800000, guid: caef9f715d25f9648ba02045b536297f, type: 3}
-      highRes: 0
-    - name: 22
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: c97a84964747ffc439f0c394d761e4dd, type: 3}
-      sprite: {fileID: 2800000, guid: c97a84964747ffc439f0c394d761e4dd, type: 3}
-      highRes: 0
-    - name: 23
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 9d9a3f1ca2004eb4aa86c0c83ef39780, type: 3}
-      sprite: {fileID: 2800000, guid: 9d9a3f1ca2004eb4aa86c0c83ef39780, type: 3}
-      highRes: 0
-    - name: 25
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 051341c1008932d4282e8066fbca9523, type: 3}
-      sprite: {fileID: 2800000, guid: 051341c1008932d4282e8066fbca9523, type: 3}
-      highRes: 0
-    - name: 26
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: eb3e08c3630fd394c8c63ea643c3c144, type: 3}
-      sprite: {fileID: 2800000, guid: eb3e08c3630fd394c8c63ea643c3c144, type: 3}
-      highRes: 0
-    - name: 27
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: b53fa35b9ab762445ba7ca52e0a49add, type: 3}
-      sprite: {fileID: 2800000, guid: b53fa35b9ab762445ba7ca52e0a49add, type: 3}
-      highRes: 0
-    - name: 28
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 7328f51aab683454bbabfaaf49a89ba3, type: 3}
-      sprite: {fileID: 2800000, guid: 7328f51aab683454bbabfaaf49a89ba3, type: 3}
-      highRes: 0
-    - name: 29
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 3db1cce6c87375f49966b319dd169e5c, type: 3}
-      sprite: {fileID: 2800000, guid: 3db1cce6c87375f49966b319dd169e5c, type: 3}
-      highRes: 0
-    - name: 30
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: e6632d545da0324409840e82f90d18e5, type: 3}
-      sprite: {fileID: 2800000, guid: e6632d545da0324409840e82f90d18e5, type: 3}
-      highRes: 0
-    - name: 31
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: fd85035e306f6ca4e8ebeda0ba31680a, type: 3}
-      sprite: {fileID: 2800000, guid: fd85035e306f6ca4e8ebeda0ba31680a, type: 3}
-      highRes: 0
-    - name: 24
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 7db19da15a9589f40b3cf4caf14192aa, type: 3}
-      sprite: {fileID: 2800000, guid: 7db19da15a9589f40b3cf4caf14192aa, type: 3}
-      highRes: 0
-  - name: Senko
-    blip: {fileID: 8300000, guid: 6e479545b77587e46b628eb064749eb5, type: 3}
-    pos: 2
-    emotes:
-    - name: AdoringMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: ab08ede846cfba642a8147572ae169c5, type: 3}
-      sprite: {fileID: 2800000, guid: ab08ede846cfba642a8147572ae169c5, type: 3}
-      highRes: 0
-    - name: AnnoyedMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 077f328517a76774fa42cb1ac0a400b2, type: 3}
-      sprite: {fileID: 2800000, guid: 077f328517a76774fa42cb1ac0a400b2, type: 3}
-      highRes: 0
-    - name: CleaningMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 0ce6c800d8c431f4dacc8929520caa33, type: 3}
-      sprite: {fileID: 2800000, guid: 0ce6c800d8c431f4dacc8929520caa33, type: 3}
-      highRes: 0
-    - name: CleaningMaid1
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 7aae588608cbb2846ae216b27fa18ccf, type: 3}
-      sprite: {fileID: 2800000, guid: 7aae588608cbb2846ae216b27fa18ccf, type: 3}
-      highRes: 0
-    - name: CookingMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: c3521c7670aae3143971224b11bc108f, type: 3}
-      sprite: {fileID: 2800000, guid: c3521c7670aae3143971224b11bc108f, type: 3}
-      highRes: 0
-    - name: CookingMaid2
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 8650d5073eeca9a48ab633cbb5244dee, type: 3}
-      sprite: {fileID: 2800000, guid: 8650d5073eeca9a48ab633cbb5244dee, type: 3}
-      highRes: 0
-    - name: CookingMaid3
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: f03a701e6ac172348b0f27e75ec4c130, type: 3}
-      sprite: {fileID: 2800000, guid: f03a701e6ac172348b0f27e75ec4c130, type: 3}
-      highRes: 0
-    - name: EarsMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 47a52c13a2a609d42afc58a23979aef6, type: 3}
-      sprite: {fileID: 2800000, guid: 47a52c13a2a609d42afc58a23979aef6, type: 3}
-      highRes: 0
-    - name: Embarassed
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 9c45f2b63e0eaa8479d78128efd619e4, type: 3}
-      sprite: {fileID: 2800000, guid: 9c45f2b63e0eaa8479d78128efd619e4, type: 3}
-      highRes: 0
-    - name: EmbarassedMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 0e958e1bb0016a34a846b02d6d557185, type: 3}
-      sprite: {fileID: 2800000, guid: 0e958e1bb0016a34a846b02d6d557185, type: 3}
-      highRes: 0
-    - name: FoodMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 99452026f74433243808fdf4d7e62b36, type: 3}
-      sprite: {fileID: 2800000, guid: 99452026f74433243808fdf4d7e62b36, type: 3}
-      highRes: 0
-    - name: FoodMaid2
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 13356ee56b48738418607ebbf8b3147f, type: 3}
-      sprite: {fileID: 2800000, guid: 13356ee56b48738418607ebbf8b3147f, type: 3}
-      highRes: 0
-    - name: FullBodyMaid1
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 2ed31762d98eab54c989992e68406923, type: 3}
-      sprite: {fileID: 2800000, guid: 2ed31762d98eab54c989992e68406923, type: 3}
-      highRes: 0
-    - name: FullBodyMaid2
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 3ce40f9f98e54024a8d9f01b10a66be2, type: 3}
-      sprite: {fileID: 2800000, guid: 3ce40f9f98e54024a8d9f01b10a66be2, type: 3}
-      highRes: 0
-    - name: FullBodyMaid3
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: be50fb74264f9f04dad529aee2517148, type: 3}
-      sprite: {fileID: 2800000, guid: be50fb74264f9f04dad529aee2517148, type: 3}
-      highRes: 0
-    - name: GamingLossMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 23ffb5c6a9a9daf4f8fdfdcafd1f009c, type: 3}
-      sprite: {fileID: 2800000, guid: 23ffb5c6a9a9daf4f8fdfdcafd1f009c, type: 3}
-      highRes: 0
-    - name: HandMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: f4c63a6521d110f46a6c68d51a1ca6c0, type: 3}
-      sprite: {fileID: 2800000, guid: f4c63a6521d110f46a6c68d51a1ca6c0, type: 3}
-      highRes: 0
-    - name: HappyMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: f53d89b5eb2e04f44b15219daf0aed8a, type: 3}
-      sprite: {fileID: 2800000, guid: f53d89b5eb2e04f44b15219daf0aed8a, type: 3}
-      highRes: 0
-    - name: HappyMaid2
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 3225ff20ec6ca904abed4ff0a8e0febe, type: 3}
-      sprite: {fileID: 2800000, guid: 3225ff20ec6ca904abed4ff0a8e0febe, type: 3}
-      highRes: 0
-    - name: HappyMaid3
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 11d73a1233eed2d41881a0a70adf88b7, type: 3}
-      sprite: {fileID: 2800000, guid: 11d73a1233eed2d41881a0a70adf88b7, type: 3}
-      highRes: 0
-    - name: HappyMaid4
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 4b04489937360f543a333a29564f652e, type: 3}
-      sprite: {fileID: 2800000, guid: 4b04489937360f543a333a29564f652e, type: 3}
-      highRes: 0
-    - name: HappyMaid5
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 442aae19333950342a8ede0334e18d72, type: 3}
-      sprite: {fileID: 2800000, guid: 442aae19333950342a8ede0334e18d72, type: 3}
-      highRes: 0
-    - name: HidingSomethingMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: e4cf94b61ad104b438d0d33bd7262bf1, type: 3}
-      sprite: {fileID: 2800000, guid: e4cf94b61ad104b438d0d33bd7262bf1, type: 3}
-      highRes: 0
-    - name: MoanMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 042ff7d7145ed3a4daa92bfbaaa7af83, type: 3}
-      sprite: {fileID: 2800000, guid: 042ff7d7145ed3a4daa92bfbaaa7af83, type: 3}
-      highRes: 0
-    - name: MotivatedMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 2c6b63326a43db944a13074bc594553f, type: 3}
-      sprite: {fileID: 2800000, guid: 2c6b63326a43db944a13074bc594553f, type: 3}
-      highRes: 0
-    - name: PoutMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 8ff42d0bab737114caf4004f42848f2f, type: 3}
-      sprite: {fileID: 2800000, guid: 8ff42d0bab737114caf4004f42848f2f, type: 3}
-      highRes: 0
-    - name: PoutyBedMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 714c86228396d3d4fb42622970c3635e, type: 3}
-      sprite: {fileID: 2800000, guid: 714c86228396d3d4fb42622970c3635e, type: 3}
-      highRes: 0
-    - name: ProudMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 8e056b18b3db5ff4481550bae57ad960, type: 3}
-      sprite: {fileID: 2800000, guid: 8e056b18b3db5ff4481550bae57ad960, type: 3}
-      highRes: 0
-    - name: PoutyMaid2
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: b4372eccfa6e3eb459aad766e24e82ed, type: 3}
-      sprite: {fileID: 2800000, guid: b4372eccfa6e3eb459aad766e24e82ed, type: 3}
-      highRes: 0
-    - name: ScaredMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: cb8d3e1e0b47ab64bb458bcc2663094f, type: 3}
-      sprite: {fileID: 2800000, guid: cb8d3e1e0b47ab64bb458bcc2663094f, type: 3}
-      highRes: 0
-    - name: SighMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 2d6d8ae65f1a4044d874200bf1d724d0, type: 3}
-      sprite: {fileID: 2800000, guid: 2d6d8ae65f1a4044d874200bf1d724d0, type: 3}
-      highRes: 0
-    - name: SittingMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 8cbb20e4463cb30498a463d97041ff5b, type: 3}
-      sprite: {fileID: 2800000, guid: 8cbb20e4463cb30498a463d97041ff5b, type: 3}
-      highRes: 0
-    - name: SleepingHappyMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: bddad77fed80d1249b87ab4a04599b1e, type: 3}
-      sprite: {fileID: 2800000, guid: bddad77fed80d1249b87ab4a04599b1e, type: 3}
-      highRes: 0
-    - name: SleepyDayMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 6126db7983dc2854abbe9ddf2e8b381c, type: 3}
-      sprite: {fileID: 2800000, guid: 6126db7983dc2854abbe9ddf2e8b381c, type: 3}
-      highRes: 0
-    - name: SurprisedMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 36fde41fb9bcb114eaec92d087ab84eb, type: 3}
-      sprite: {fileID: 2800000, guid: 36fde41fb9bcb114eaec92d087ab84eb, type: 3}
-      highRes: 0
-    - name: TsundereMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: bae610aa9a500e34fb1873774e4e8332, type: 3}
-      sprite: {fileID: 2800000, guid: bae610aa9a500e34fb1873774e4e8332, type: 3}
-      highRes: 0
-    - name: WonderMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 857629637af973b48a43cab77051f5f1, type: 3}
-      sprite: {fileID: 2800000, guid: 857629637af973b48a43cab77051f5f1, type: 3}
-      highRes: 0
-    - name: WorriedMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 47383e849e08a784f9a6873e6fd9e8b5, type: 3}
-      sprite: {fileID: 2800000, guid: 47383e849e08a784f9a6873e6fd9e8b5, type: 3}
-      highRes: 0
-    - name: YawnMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: f773e57f67d8964478560063d208f6c4, type: 3}
-      sprite: {fileID: 2800000, guid: f773e57f67d8964478560063d208f6c4, type: 3}
-      highRes: 0
-    - name: StretchNight
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 0811df94c0cebb34f8fe4be017b07d85, type: 3}
-      sprite: {fileID: 2800000, guid: 0811df94c0cebb34f8fe4be017b07d85, type: 3}
-      highRes: 0
-    - name: BentoCasual
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: b4efd751543e6e047bbd1a0516bc0b05, type: 3}
-      sprite: {fileID: 2800000, guid: b4efd751543e6e047bbd1a0516bc0b05, type: 3}
-      highRes: 0
-    - name: NormalCasual
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 35a25a2d62a61644182c3630451823d4, type: 3}
-      sprite: {fileID: 2800000, guid: 35a25a2d62a61644182c3630451823d4, type: 3}
-      highRes: 0
-    - name: SmileyCasual
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 7c690c1f13d49f745849f9fb4d724793, type: 3}
-      sprite: {fileID: 2800000, guid: 7c690c1f13d49f745849f9fb4d724793, type: 3}
-      highRes: 0
-    - name: SurprisedCasual
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 20ef40f5a44f7a044950210129f19f3d, type: 3}
-      sprite: {fileID: 2800000, guid: 20ef40f5a44f7a044950210129f19f3d, type: 3}
-      highRes: 0
-    - name: WorriedCasual
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 9fa464f531eb38b43bb178f27000f9ae, type: 3}
-      sprite: {fileID: 2800000, guid: 9fa464f531eb38b43bb178f27000f9ae, type: 3}
-      highRes: 0
-    - name: AfterShowerNight
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: a7e444fc5775e334b8c552acbbacd0c7, type: 3}
-      sprite: {fileID: 2800000, guid: a7e444fc5775e334b8c552acbbacd0c7, type: 3}
-      highRes: 0
-    - name: AwakeNight
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: a7d38274751d88548a104124df19eeb1, type: 3}
-      sprite: {fileID: 2800000, guid: a7d38274751d88548a104124df19eeb1, type: 3}
-      highRes: 0
-    - name: ReadyNight
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 64d56edb70510cf4c932041abf6ecaf3, type: 3}
-      sprite: {fileID: 2800000, guid: 64d56edb70510cf4c932041abf6ecaf3, type: 3}
-      highRes: 0
-    - name: SleepNight
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: ccfa1cb7ca4ea69418dea23cf2e0a58f, type: 3}
-      sprite: {fileID: 2800000, guid: ccfa1cb7ca4ea69418dea23cf2e0a58f, type: 3}
-      highRes: 0
-    - name: SmugMaid
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 10c7b6c886fa5574a8945b064891739d, type: 3}
-      sprite: {fileID: 2800000, guid: 1d72a93a2fe2a17449bfceee5602a33c, type: 3}
-      highRes: 0
-    - name: SleepyNight
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 1d72a93a2fe2a17449bfceee5602a33c, type: 3}
-      sprite: {fileID: 2800000, guid: 1d72a93a2fe2a17449bfceee5602a33c, type: 3}
-      highRes: 0
-  - name: Akira
-    blip: {fileID: 8300000, guid: 2c10c60a38d6c0643ba2f8b895c2709c, type: 3}
-    pos: 3
-    emotes:
-    - name: ArmsCrossed
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 4b5bb9f4d5b3a584cb28ca20552c445c, type: 3}
-      sprite: {fileID: 2800000, guid: 4b5bb9f4d5b3a584cb28ca20552c445c, type: 3}
-      highRes: 0
-    - name: Blade
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 6c9c829b9865a1e4290e096d0b89e579, type: 3}
-      sprite: {fileID: 2800000, guid: 6c9c829b9865a1e4290e096d0b89e579, type: 3}
-      highRes: 0
-    - name: BladePose
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: eb14866d1f8482646aedc0017a0192e8, type: 3}
-      sprite: {fileID: 2800000, guid: eb14866d1f8482646aedc0017a0192e8, type: 3}
-      highRes: 0
-    - name: CalmCombat
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 093f3b72895ec4d4a845f8e13183b983, type: 3}
-      sprite: {fileID: 2800000, guid: 093f3b72895ec4d4a845f8e13183b983, type: 3}
-      highRes: 0
-    - name: Coat
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: f341b1da28cccba49b056e6ed8a0df20, type: 3}
-      sprite: {fileID: 2800000, guid: f341b1da28cccba49b056e6ed8a0df20, type: 3}
-      highRes: 0
-    - name: Damage
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 6aeb0e06fe7031d4b85be0493fc1b01f, type: 3}
-      sprite: {fileID: 2800000, guid: 6aeb0e06fe7031d4b85be0493fc1b01f, type: 3}
-      highRes: 0
-    - name: Depres
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 01ea97921870934459a30a4646685e04, type: 3}
-      sprite: {fileID: 2800000, guid: 01ea97921870934459a30a4646685e04, type: 3}
-      highRes: 0
-    - name: Desk
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: a7e1193ac058c4541a3e550c6b84314c, type: 3}
-      sprite: {fileID: 2800000, guid: a7e1193ac058c4541a3e550c6b84314c, type: 3}
-      highRes: 0
-    - name: Disapprovement
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 8e23b9bebec76764bac073d7b7e224ca, type: 3}
-      sprite: {fileID: 2800000, guid: 8e23b9bebec76764bac073d7b7e224ca, type: 3}
-      highRes: 0
-    - name: Drawn
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: fdfb52373635ddb4b85d9a824a31c586, type: 3}
-      sprite: {fileID: 2800000, guid: fdfb52373635ddb4b85d9a824a31c586, type: 3}
-      highRes: 0
-    - name: Gasp
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 0498d2b3e762ca14e96b673418de5447, type: 3}
-      sprite: {fileID: 2800000, guid: 0498d2b3e762ca14e96b673418de5447, type: 3}
-      highRes: 0
-    - name: HandOut
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: dfd5ecbde47f8f64fa4d2aeea885ab8d, type: 3}
-      sprite: {fileID: 2800000, guid: dfd5ecbde47f8f64fa4d2aeea885ab8d, type: 3}
-      highRes: 0
-    - name: HandSmack
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: adac448dce0380f4bbd19fcf5f537c58, type: 3}
-      sprite: {fileID: 2800000, guid: adac448dce0380f4bbd19fcf5f537c58, type: 3}
-      highRes: 0
-    - name: HandUp
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: eabd04e7db24401409d59cc7ac6f4b3c, type: 3}
-      sprite: {fileID: 2800000, guid: eabd04e7db24401409d59cc7ac6f4b3c, type: 3}
-      highRes: 0
-    - name: HeadDown
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: b0837eef172a45a4e8c9d27248e93c15, type: 3}
-      sprite: {fileID: 2800000, guid: b0837eef172a45a4e8c9d27248e93c15, type: 3}
-      highRes: 0
-    - name: IfYouWant
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 6079b946de9215d4ab4d6851551cc40f, type: 3}
-      sprite: {fileID: 2800000, guid: 6079b946de9215d4ab4d6851551cc40f, type: 3}
-      highRes: 0
-    - name: Normal
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 452df5a20db3eb04bbb72dfba8a86586, type: 3}
-      sprite: {fileID: 2800000, guid: 452df5a20db3eb04bbb72dfba8a86586, type: 3}
-      highRes: 0
-    - name: Sheathe
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: d7c2632536f225f479a858ef08667b83, type: 3}
-      sprite: {fileID: 2800000, guid: d7c2632536f225f479a858ef08667b83, type: 3}
-      highRes: 0
-    - name: Stop
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: ba2d9124ac538f64bad2bd9e6760d48c, type: 3}
-      sprite: {fileID: 2800000, guid: ba2d9124ac538f64bad2bd9e6760d48c, type: 3}
-      highRes: 0
-    - name: Wonder
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: d76a1c3ccc98d4446be995bf1586e424, type: 3}
-      sprite: {fileID: 2800000, guid: d76a1c3ccc98d4446be995bf1586e424, type: 3}
-      highRes: 0
-  - name: Shiro
-    blip: {fileID: 8300000, guid: 6e479545b77587e46b628eb064749eb5, type: 3}
-    pos: 0
-    emotes:
-    - name: Annoyed
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 0b76e2eb38c54424bb5c55890a67893e, type: 3}
-      sprite: {fileID: 2800000, guid: 0b76e2eb38c54424bb5c55890a67893e, type: 3}
-      highRes: 0
-    - name: Chips
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: ccac8583b8d4389478b6ed75d40d9ad3, type: 3}
-      sprite: {fileID: 2800000, guid: ccac8583b8d4389478b6ed75d40d9ad3, type: 3}
-      highRes: 0
-    - name: Gamer
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 7b7f19d9a6b356d418db2c9c491f558c, type: 3}
-      sprite: {fileID: 2800000, guid: 7b7f19d9a6b356d418db2c9c491f558c, type: 3}
-      highRes: 0
-    - name: Hungup
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: e6a782f62edac134d83e8827711e0000, type: 3}
-      sprite: {fileID: 2800000, guid: e6a782f62edac134d83e8827711e0000, type: 3}
-      highRes: 0
-    - name: Irritated
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 15dec75567cc654428955ab8c8cabc59, type: 3}
-      sprite: {fileID: 2800000, guid: 15dec75567cc654428955ab8c8cabc59, type: 3}
-      highRes: 0
-    - name: Lollipop
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 6ca33a9db94de804a9ff86a1e9794036, type: 3}
-      sprite: {fileID: 2800000, guid: 6ca33a9db94de804a9ff86a1e9794036, type: 3}
-      highRes: 0
-    - name: Normal
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: fd4f8226125b6134f88774ea0a2c0822, type: 3}
-      sprite: {fileID: 2800000, guid: fd4f8226125b6134f88774ea0a2c0822, type: 3}
-      highRes: 0
-    - name: Phonecall
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: d1043cbfd6832ec4996fceeec835b6a0, type: 3}
-      sprite: {fileID: 2800000, guid: d1043cbfd6832ec4996fceeec835b6a0, type: 3}
-      highRes: 0
-    - name: Scooter
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 47a96cf831a525442b505628cce43196, type: 3}
-      sprite: {fileID: 2800000, guid: 47a96cf831a525442b505628cce43196, type: 3}
-      highRes: 0
-    - name: SickoMode
-      showDesk: 0
-      preanimSprites: []
-      animSprites:
-      - {fileID: 2800000, guid: 711e012eb1d5e8f4387ef8dd0396a9df, type: 3}
-      sprite: {fileID: 2800000, guid: 711e012eb1d5e8f4387ef8dd0396a9df, type: 3}
-      highRes: 0
-  sfxs:
-  - name: AsgoreScream
-    sfx: {fileID: 8300000, guid: ecab035c60278a64b8f89894747f0b14, type: 3}
-  - name: Lightning
-    sfx: {fileID: 8300000, guid: 20d41fc39277c7546a94700935ec7014, type: 3}
-  music:
-  - name: ButNobodyCame
-    music: {fileID: 8300000, guid: 18fcbc91e97da7f4e9db84b49aa4a44e, type: 3}
-  - name: UndertaleWind
-    music: {fileID: 8300000, guid: 659e27b574a019b4fbcb65047eb124ef, type: 3}
-  - name: TheEarthRefused
-    music: {fileID: 8300000, guid: a661ad04b8af66441a3cc143494e38ba, type: 3}
-  - name: OutsideFunk2
-    music: {fileID: 8300000, guid: 3580b9b3286ae2d4096bab0939f62562, type: 3}
-  - name: RevealingExposition
-    music: {fileID: 8300000, guid: f481617ff9881fd4e824e6c98eb9e95c, type: 3}
-  - name: LThemeB
-    music: {fileID: 8300000, guid: c94608f52c268cf459700f295fee2fb7, type: 3}
-  - name: Waterfall
-    music: {fileID: 8300000, guid: c026b4b9a8c6f57438406c4c8dc47ecc, type: 3}
-  - name: NeutralEndingNarration
-    music: {fileID: 8300000, guid: 47a0b1227c3346548bb562a52d476188, type: 3}
-  - name: HopefulDefeatedRetelling
-    music: {fileID: 8300000, guid: 15c0f1e76ba96034bb026d700067bd6d, type: 3}
-  blips:
-  - name: female
-    blip: {fileID: 8300000, guid: 6e479545b77587e46b628eb064749eb5, type: 3}
-  - name: fnf
-    blip: {fileID: 8300000, guid: caf7e8731cff0fc489c6022cd6ec00ca, type: 3}
-  - name: layton
-    blip: {fileID: 8300000, guid: 5ee3e972f09d5c244b6c0356f407e583, type: 3}
-  - name: male
-    blip: {fileID: 8300000, guid: 2c10c60a38d6c0643ba2f8b895c2709c, type: 3}
-  - name: omori
-    blip: {fileID: 8300000, guid: eac5d47286ec80d4d9fbd5ed96f959f8, type: 3}
---- !u!4 &510265862
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 510265860}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 176.44617, y: 158.09961, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &511229939
 GameObject:
   m_ObjectHideFlags: 0
@@ -4873,6 +5017,7 @@ MonoBehaviour:
     shownameText: {fileID: 723250440}
     messageText: {fileID: 1690076064}
     chatbox: {fileID: 634453113}
+    chatbox_Showname: {fileID: 101080006}
     chatbox_NextArrow: {fileID: 620118126}
   blipMixer: {fileID: 6562696772491701836, guid: 2b6a8d9c0628ac14da89916203f714a0,
     type: 2}
@@ -4881,7 +5026,8 @@ MonoBehaviour:
   scrollSpeed: 2
   shownameIgnoredCharacters:
   - '*'
-  logName: chapter_0
+  LogPath: Logs/ValkyrieTale/
+  logName: chapter_2
   continueKey: 0f0100000d00000020000000
   skipModeKey: 1b000000
   currentDialogue:
@@ -4965,6 +5111,11 @@ MonoBehaviour:
     start: 126
     end: 126
     color: {r: 1, g: 0, b: 0, a: 1}
+    keepCharacters: 0
+  - name: Green
+    start: 172
+    end: 172
+    color: {r: 0, g: 1, b: 0.0940752, a: 1}
     keepCharacters: 0
 --- !u!1 &821240091
 GameObject:
@@ -5144,11 +5295,13 @@ MonoBehaviour:
   buttonSprite: {fileID: 0}
   settingsRoot: {fileID: 0}
   generalRoot: {fileID: 0}
+  pauseRoot: {fileID: 0}
   manualMode: {fileID: 0}
   confirmActions: {fileID: 0}
   volume: {fileID: 0}
   animator: {fileID: 898119186}
   panel: {fileID: 1221056791}
+  VN: 0
 --- !u!95 &898119186
 Animator:
   serializedVersion: 3

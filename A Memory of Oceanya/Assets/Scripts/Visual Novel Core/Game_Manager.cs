@@ -32,6 +32,7 @@ public class Game_Manager : MonoBehaviour
         public TextMeshProUGUI shownameText;
         public TextMeshProUGUI messageText;
         public GameObject chatbox;
+        public GameObject chatbox_Showname;
         public GameObject chatbox_NextArrow;
     }
 
@@ -47,8 +48,10 @@ public class Game_Manager : MonoBehaviour
     [Tooltip("These strings will get removed from shownames when displayed, this is so that you can have different variation of same character with different states.")]
     public string[] shownameIgnoredCharacters;
 
-    [Header("MANUAL START POINT")]
+    [Header("START POINT")]
+    public string LogPath = "Logs/";
     public string logName;
+    
 
     [Header("Keybinds")]
     public KeyCode[] continueKey;
@@ -103,14 +106,15 @@ public class Game_Manager : MonoBehaviour
         }
     }
 
-
+    
     private void Start()
     {
+        architect = new TextScroller(elements.messageText, "", this, "", scrollCharactersPerFrame, scrollSpeed, delegate(int i1) {  });
         FileManager.Initialize();
         dialogue.LoadSaveFile(0);
     }
 
-    public void FixedUpdate()
+    public void Update()
     {
         if (CheckInputFromArray(continueKey))
         {
@@ -201,9 +205,12 @@ public class Game_Manager : MonoBehaviour
     
     public void SetShowname(string newName)
     {
-        if(newName != null)
+        if(!string.IsNullOrEmpty(newName))
         {
-            elements.shownameText.text = newName.Remove(shownameIgnoredCharacters);
+            string cleanedUpName = newName.Remove(shownameIgnoredCharacters);
+            elements.shownameText.text = cleanedUpName;
+            
+            elements.chatbox_Showname.SetActive(cleanedUpName.ToLower() != "null");
         }
     }
 
@@ -218,12 +225,21 @@ public class Game_Manager : MonoBehaviour
     public TextScroller architect = null;
     IEnumerator Speaking(string message, string showname, bool additive, AudioClip blip = null)
     {
-        bool showChatbox = true;
-
-        if(message == "")
+        //Preanim
+        if (!CharacterAnimator.UninterruptedPreanim)
         {
-            showChatbox = false;
+            //Stop showing chatbox
+            elements.chatbox.SetActive(false);
+
+            //Wait for preanim to be over
+            while (CharacterAnimator.AnimatingPreanim)
+            {
+                yield return new WaitForEndOfFrame();
+            }
         }
+
+        //Begin speaking
+        bool showChatbox = message != "";
 
         elements.chatbox.SetActive(showChatbox);
 
@@ -237,7 +253,7 @@ public class Game_Manager : MonoBehaviour
 
         if (architect == null)
         {
-            architect = new TextScroller(elements.messageText, message, this, additiveSpeech, scrollCharactersPerFrame, scrollSpeed, blipAction);
+            
         }
         else
         {

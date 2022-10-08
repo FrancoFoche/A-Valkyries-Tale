@@ -23,24 +23,26 @@ choice: "title"
 |text| Sets text to orange
 [text] Sets text to gray
 ~text~ Sets text to Red
+¬text¬ Sets text to Green
 
 #COMMANDS
 
-SetEmote(string emoteName, string characterName = (lastCharacter))              Sets the character emote
-SetBackground(string position, string courtroom = (lastCourtroom))              Sets the courtroom background
-SetBackground(WindowsBackground)                                                Sets the courtroom background to the player's wallpaper
-PlayMusic(string name, bool loop = true)                                        Plays music
-PauseMusic()                                                                    Pauses current music
-UnPauseMusic()                                                                  Unpauses current music
-StopMusic()                                                                     Stops current music
-ReplayMusic()                                                                   Replays current music
-PlaySFX(string name, float volume = 1, float pitch = 1)                         Plays an SFX
-WaitForInput(string variableName, title = "", bool ClearCurrentInput = true)    Triggers the input screen and waits for confirmation before proceeding
+SetEmote(string emoteName, string characterName = (lastCharacter), bool PlayPreanim = false, bool immediate = false)      Sets the character emote
+SetBackground(string position, string courtroom = (lastCourtroom))                                                        Sets the courtroom background
+SetBackground(WindowsBackground)                                                                                          Sets the courtroom background to the player's wallpaper
+PlayMusic(string name, bool loop = true)                                                                                  Plays music
+PauseMusic()                                                                                                              Pauses current music
+UnPauseMusic()                                                                                                            Unpauses current music
+StopMusic()                                                                                                               Stops current music
+ReplayMusic()                                                                                                             Replays current music
+PlaySFX(string name, float volume = 1, float pitch = 1)                                                                   Plays an SFX
+WaitForInput(string variableName, title = "", bool ClearCurrentInput = true)                                              Triggers the input screen and waits for confirmation before proceeding
 ForceConfirmInput() Confirms the input screen
-Load(string filename)                                                           Loads a new Log to be read.
-Next()                                                                          Forces the line to proceed through the command Next
-SetBlip(string characterName/blipname)                                          Sets the current blips to the blips of another character
-RestoreBlip()                                                                   Restores the blips back to the default of the current character.
+Load(string filename)                                                                                                     Loads a new Log to be read.
+Next()                                                                                                                    Forces the line to proceed through the command Next
+SkilLine()                                                                                                                Forcefully skips forward to the next line when reaching the command.
+SetBlip(string characterName/blipname)                                                                                    Sets the current blips to the blips of another character
+RestoreBlip()                                                                                                             Restores the blips back to the default of the current character.
 
 #ACTIONS
 
